@@ -3,20 +3,26 @@
         "id": 1,
         "homeImage": "./images/portfolio/portfolio-1.jpg",
         "image": "images/project/project-1.jpg",
-        "title": "HasThemes Development: An outstanding payment app",
-        "date": "28 Sep 2007",
+        "title": "Do not trade alone.  Trading in isloation leads to failure.",
+        "date": "28 Sep 2021",
         "client": "HighGrove Partners",
         "categories": ["app", "development"],
-        "awards": ["2015 Digital World Awards 2016 Finale Awards"],
-        "excerpt": "Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.",
-        "body": ["<p>Digital marketing encompasses all marketing efforts that use an electronic device or the internet. Businesses leverage digital channels such as search engines, social media, email, and their websites to connect with current and prospective customers.</p>", "<p>It is. In fact, “constant” internet usage among adults increased by 5% in just the last three years, according to Pew Research. And although we say it a lot, the way people shop and buy really has changed along with it — meaning offline marketing isn’t as effective as it used to be.</p>", "<p>Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. (Source: blog.hubspot.com)</p>"],
+        "awards": ["2021 Digital World Awards 2020 Finale Awards"],
+        "excerpt": "The problems of trading alone is many.  They can be overwhelming and is a threat to your trading success.",
+        "body": [
+            "<p>Guidelines from a more experienced colleague – You may leave much behind during the switch from office to working from home. The apparent change is having no coworkers and mentors to lean on for advice and education.</p>",
+            "<p>Support and assistance during hard times – This ranges from a losing sequence to emotional issues, an abundance or lack of confidence all of the potential personal problems that a person faces in life. Whilst not apart of an organization, the burden to resolve problems shifts almost entirely onto you.</p>",
+            "<p>Critical criticism – Missing out on learning from another viewpoint about your performance. It will become difficult to recover from tough situations and challenge your analysis. Unable to be as decisive about which may be the right move or path to take.</p>",
+            "<p>More efficient learning process – In an organization, it’s possible to split research amongst colleagues. A pool of people brings a variety of opinions to discuss, more angles for resolutions, and it cuts the workload of backtesting, researching, and concluding the process.</p>",
+            "<p>Social structure or network – Humans generally are meant to work or remain in a tribe of a society. It’s in our nature to share, be challenged, and observe others around us. Home office trading cuts off this social aspect and leaves many traders needing to fulfill the void elsewhere.</p>"
+            ],
         "btn": {
             "text": "Go to link",
             "link": "/"
         },
         "largeImage": "images/project/work-details-1.jpg",
         "subContent": {
-            "title": "Digital Marketing.",
+            "title": "Trading with experts",
             "text": "Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences. And conversations with marketers and business owners in the U.S., U.K., Asia, Australia, and New Zealand, I've learned a lot about how those small differences are being observed across the world."
         },
         "gallery": {
@@ -29,13 +35,18 @@
         "id": 2,
         "homeImage": "./images/portfolio/portfolio-2.jpg",
         "image": "images/project/project-2.jpg",
-        "title": "Dashboards UI Kit open-source set of ready-to-use templates",
+        "title": "An advanced AI to find trades before they happen",
         "date": "28 Sep 2007",
         "client": "HighGrove Partners",
         "categories": ["marketing", "software"],
         "awards": ["2015 Digital World Awards 2016 Finale Awards"],
         "excerpt": "Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.",
-        "body": ["<p>Digital marketing encompasses all marketing efforts that use an electronic device or the internet. Businesses leverage digital channels such as search engines, social media, email, and their websites to connect with current and prospective customers.</p>", "<p>It is. In fact, “constant” internet usage among adults increased by 5% in just the last three years, according to Pew Research. And although we say it a lot, the way people shop and buy really has changed along with it — meaning offline marketing isn’t as effective as it used to be.</p>", "<p>Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. (Source: blog.hubspot.com)</p>"],
+        "body": [
+            "Data-Based Trading Decisions - AI trading bots are able to analyse millions of potential scenarios in a split second, simplifying data analysis. A human could never analyse data as quickly as an AI trade bot, meaning that trading decisions can be based upon a far greater quantity of historical data than ever before.",
+            "Less work - Trading isn’t an 9-5 venture – it’s always on the go and forever changing. However, it’s impossible for any trader to be on the ball 24 hour per day, 7 days per week. There is only so much time that anyone can spend trading, even for the most devoted of traders.",
+            "Removes Emotion From The Trading Process - It’s easy to make emotional trades when you’re trading. This could be a snap decision made through instinct without the necessary research being performed quickly, or an irrational attempt to win back money after a well-thought-out trade goes wrong.",
+            "Suitable For Both Beginners And Advanced Traders - Whether you’re a complete beginner when it comes to trading, or an advanced trader, AI trading systems can simplify trading. Beginners can access the trading market without the need for any prior experience. This enables even novices to dive in without the need for extensive research, by authorising the AI ti fund trades autonomously."
+            ],
         "btn": {
             "text": "Go to link",
             "link": "/"
@@ -55,13 +66,20 @@
         "id": 3,
         "homeImage": "./images/portfolio/portfolio-3.jpg",
         "image": "images/project/project-3.jpg",
-        "title": "Project You X Ventures Studio. Toronto, Canada",
+        "title": "Common trading mistakes",
         "date": "28 Sep 2007",
         "client": "HighGrove Partners",
         "categories": ["app", "software", "marketing"],
         "awards": ["2015 Digital World Awards 2016 Finale Awards"],
         "excerpt": "Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.",
-        "body": ["<p>Digital marketing encompasses all marketing efforts that use an electronic device or the internet. Businesses leverage digital channels such as search engines, social media, email, and their websites to connect with current and prospective customers.</p>", "<p>It is. In fact, “constant” internet usage among adults increased by 5% in just the last three years, according to Pew Research. And although we say it a lot, the way people shop and buy really has changed along with it — meaning offline marketing isn’t as effective as it used to be.</p>", "<p>Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. (Source: blog.hubspot.com)</p>"],
+        "body": [
+            "Lack of patience. The stock (Forex) market is a device for transferring money from the impatient to the patient – Warren Buffett.  Wait for the right opportunity.  Rushing to make money             is the best way to lose them.  Be patient.",
+            "Over-Trading - This is the number 1 Forex trading account killer. Whilst this is subjective and different to each trader, what it boils down to is pretty simple. Over-trading is when you are taking trades that do not fit your trading plan and rules simply because you are trying to make more money.",
+            "Starting and Continuing to Move Stops - Fear is the main driver because the trader does not want to lose money and so they will move their stop further and further away hoping price will turn around. This will often see them lose more and more money.",
+            "Constantly changing Profit-targets.  This includes taking profit early when you had a set profit target or continually disregarding your own targets hoping to make more profits.",
+            "Revenge Trading.  We have all done it before.  After losing money you quickly place more and more trades trying to regain your losses only to lose even more money.",
+            "Money Management Errors. These include trade management errors such as risking far too much on each trade hoping to make more, doubling up on certain types of trades and not using a stop loss."
+            ],
         "btn": {
             "text": "Go to link",
             "link": "/"
@@ -81,13 +99,19 @@
         "id": 4,
         "homeImage": "./images/portfolio/portfolio-4.jpg",
         "image": "images/project/project-4.jpg",
-        "title": "Launching a new campaign this month, Nike by you",
+        "title": "Best trading strategy for you.",
         "date": "28 Sep 2007",
         "client": "HighGrove Partners",
         "categories": ["development", "ux design", "marketing"],
         "awards": ["2015 Digital World Awards 2016 Finale Awards"],
-        "excerpt": "Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.",
-        "body": ["<p>Digital marketing encompasses all marketing efforts that use an electronic device or the internet. Businesses leverage digital channels such as search engines, social media, email, and their websites to connect with current and prospective customers.</p>", "<p>It is. In fact, “constant” internet usage among adults increased by 5% in just the last three years, according to Pew Research. And although we say it a lot, the way people shop and buy really has changed along with it — meaning offline marketing isn’t as effective as it used to be.</p>", "<p>Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. (Source: blog.hubspot.com)</p>"],
+        "excerpt": "Selecting the right trading strategy may be one of the most important steps you’ll take.",
+        "body": [
+                "Benefits of Selecting the Right Trading Strategy - Selecting the right trading strategy may be one of the most important steps you’ll take.  Remember that the goal is to eventually master a certain strategy. So when you find something that shows promise and suits you, focus on it. Refine it.",
+                "Try different strategies. Look for the right fit. That’s generally a smart move … you don’t know what works until you try it.  The market changes.  No strategy works forever.  The market is constantly evolving and so should you.",
+                "Finding your stride - Different strategies work better in different environments. Trading breakouts can be advantageous when a lot of stocks are making breakouts … But when the market’s quiet, you may be better off trading for quick scalps and swing trades. Your trading success depends a lot on picking the right strategy for the right market environment.",
+                "Peace of mind. As traders, we all have different psychological makeup and risk tolerances. Some of us can’t sleep at night if we have an open position, so we might focus on day trading. Others might hate the frenzied pace of day trading. You might feel perfectly calm holding positions for weeks. Trading shouldn’t mean dying of stress. You should enjoy your life — pick a strategy that fits your mindset.",
+                "Lifestyle. Different lifestyles mean different strategies. Day trading can mean sitting in front of the screen all day … not great for a 9-to-5er. Longer-term trading often means you won’t be in front of the screens as much. It’s generally much more accessible if you work a full-time job. When you’re picking your strategy, keep your preferred lifestyle in mind."
+                ],
         "btn": {
             "text": "Go to link",
             "link": "/"

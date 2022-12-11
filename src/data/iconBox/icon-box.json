@@ -2,24 +2,24 @@
     {
         "id": "1",
         "icon": "images/svg/linea/linea-basic-target.svg",
-        "title": "Branding",
-        "desc": "First impressions count! Make sure your brand works for you. We offer digital marketing.",
+        "title": "Trade with expert",
+        "desc": "It is easy to be overwhelmed when you are trading.  By trading with a trusted expert, you can be sure that you are making the right decisions.",
         "pageLink": "Learn More",
         "link": "service"
     },
     {
         "id": "2",
         "icon": "images/svg/linea/linea-basic-picture-multiple.svg",
-        "title": "UX Design",
-        "desc": "First impressions count! Make sure your brand works for you. We offer digital marketing.",
+        "title": "Custom AI",
+        "desc": "We work with the expert to improve our AI. We are constantly upgrading and adapting to latest market conditions.",
         "pageLink": "Learn More",
         "link": "service"
     },
     {
         "id": "3",
         "icon": "images/svg/linea/linea-basic-picture.svg",
-        "title": "Strategy",
-        "desc": "First impressions count! Make sure your brand works for you. We offer digital marketing.",
+        "title": "Confidence",
+        "desc": "Trade with confidence. We will help you make the right decision and execute your trade at your best.",
         "pageLink": "Learn More",
         "link": "service"
     },

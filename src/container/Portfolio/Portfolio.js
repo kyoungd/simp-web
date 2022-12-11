@@ -21,15 +21,13 @@ const Portfolio = () => {
                     <div className="col-lg-5">
                             <SectionTitleTwo 
                                 subTitle="Portfolios"
-                                title="Selected works."
+                                title="TradeSimp Advantage"
                             />
                     </div>
                     <div className="col-lg-7" data-aos="fade-up" data-aos-delay="300">
                         <WorkFilter categories={categories}/>
                     </div>
                 </div>
-
-
 
                 <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-0 mesonry-list">
                     <div className="resizer col"></div>

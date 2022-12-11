@@ -46,36 +46,35 @@ const HomeSuccess = () => {
                         <div className="success-content mt-lg-0 mt-md-50 mt-sm-50 mt-40">
                             <SectionTitleTwo 
                                 subTitle="Your success is our success"
-                                title="Web design, marketing &amp; SEO solutions that get results"
+                                title="Trade with confidence instead of struggling with your uncertainties"
                             />
-
 
                             <div className="progress-bar--one">
                                 <div className="progress-charts">
-                                    <h6 className="heading ">UX Design</h6>
+                                    <h6 className="heading ">Trading Partner</h6>
                                     <div className="single-progress">
-                                        <ProgressBar data-aos="fade-right" data-aos-delay="100" data-aos-duration="450" className="gradient-1" now="81" label={<span>81%</span>} />
+                                        <ProgressBar data-aos="fade-right" data-aos-delay="100" data-aos-duration="450" className="gradient-1" now="81" label={<span>91%</span>} />
                                     </div>
                                 </div>
 
                                 <div className="progress-charts ">
-                                    <h6 className="heading ">Marketing</h6>
+                                    <h6 className="heading ">Improved Focus</h6>
                                     <div className="single-progress">
-                                        <ProgressBar data-aos="fade-right" data-aos-delay="100" data-aos-duration="450" className="gradient-2" now="72" label={<span>72%</span>} />
+                                        <ProgressBar data-aos="fade-right" data-aos-delay="100" data-aos-duration="450" className="gradient-2" now="72" label={<span>84%</span>} />
                                     </div>
                                 </div>
 
                                 <div className="progress-charts ">
-                                    <h6 className="heading ">Web Design</h6>
+                                    <h6 className="heading ">Better Discipline</h6>
                                     <div className="single-progress">
-                                        <ProgressBar data-aos="fade-right" data-aos-delay="100" data-aos-duration="450" className="gradient-3" now="81" label={<span>81%</span>} />
+                                        <ProgressBar data-aos="fade-right" data-aos-delay="100" data-aos-duration="450" className="gradient-3" now="81" label={<span>71%</span>} />
                                     </div>
                                 </div>
 
                                 <div className="progress-charts ">
-                                    <h6 className="heading ">Development</h6>
+                                    <h6 className="heading ">Trading Confidence</h6>
                                     <div className="single-progress">
-                                        <ProgressBar data-aos="fade-right" data-aos-delay="100" data-aos-duration="450" className="gradient-4" now="81" label={<span>81%</span>} />
+                                        <ProgressBar data-aos="fade-right" data-aos-delay="100" data-aos-duration="450" className="gradient-4" now="81" label={<span>86%</span>} />
                                     </div>
                                 </div>
                             </div>
