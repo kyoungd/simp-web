@@ -2,11 +2,15 @@ import {Fragment, useState, useEffect} from "react";
 import Logo from '../../components/logo/Logo';
 import NavBar from '../../components/NavBar/NavBar';
 import HeaderSearch from '../../components/HeaderSearch/HeaderSearch';
-import Btn from '../../components/Btn/Btn';
+import BtnLink from '../../components/Btn/BtnLink';
 import MobileMenu from "../../components/NavBar/MobileMenu"
 import MainSearch from "../../components/NavBar/MainSearch"
+import { useUserState } from '../../components/UserContext';
 
 const Header = () => {
+    const { isAuthenticated, user } = useUserState();
+    console.log('user: ', user);
+
     const [ofcanvasShow, setOffcanvasShow] = useState(false);
     const onCanvasHandler = () => {
         setOffcanvasShow(prev => !prev);
@@ -61,9 +65,16 @@ const Header = () => {
                                 </div>
                             </div>
 
-                            <div className="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
-                                <Btn name='Buy Now' />
-                            </div>
+                            { !isAuthenticated && (                            
+                                <div className="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
+                                    <BtnLink name='login' urlpath='/login' />
+                                </div>
+                            ) }
+                            { isAuthenticated && (
+                                <div className="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
+                                    <span className="menu-text">{user.username}</span>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>

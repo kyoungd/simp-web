@@ -1,7 +1,11 @@
 import {useEffect,  Suspense, lazy } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { QueryClient, QueryClientProvider } from 'react-query';
+import { ReactQueryDevtools } from 'react-query/devtools';
 import AOS from "aos";
 import NavScrollTop from './components/NavScrollTop';
+import { useUserState } from './components/UserContext';
+
 const HomeOne = lazy(() => import("./pages/HomeOne"));
 const HomeTwo = lazy(() => import("./pages/HomeTwo"));
 const HomeThree = lazy(() => import("./pages/HomeThree"));
@@ -15,9 +19,17 @@ const BlogDetails = lazy(() => import("./pages/BlogDetails"));
 const BlogCategories = lazy(() => import("./pages/BlogCategories"));
 const BlogTag = lazy(() => import("./pages/BlogTag"));
 const Contact = lazy(() => import("./pages/Contact"));
+const Login = lazy(() => import("./pages/Login"));
+const MainOne = lazy(() => import("./pages/MainOne"));
+const ExpertTechniques = lazy(() => import("./pages/ExpertTechniques"));
+const PageDayTrade = lazy(() => import("./pages/PageDayTrade"));
 
 
 function App() {
+  const { isAuthenticated, user } = useUserState();
+  const uname = isAuthenticated ? user.username : '';
+  const eventStandard = process.env.REACT_APP_REALTIME_EVENT_STANDARD;
+
   useEffect(() => {
     AOS.init({
         offset: 80,
@@ -28,7 +40,9 @@ function App() {
     AOS.refresh();
     
   }, [])
+  const queryClient = new QueryClient();
   return (
+    <QueryClientProvider client={queryClient}>
       <Router>
         <NavScrollTop>
           <Suspense fallback={<div />}>
@@ -47,10 +61,16 @@ function App() {
                   <Route path={`${process.env.PUBLIC_URL + "/category/:slug"}`} element={<BlogCategories/>} />
                   <Route path={`${process.env.PUBLIC_URL + "/blog-details/:id"}`}element={<BlogDetails/>} />
                   <Route path={`${process.env.PUBLIC_URL + "/contact"}`} element={<Contact/>} />
+                  <Route path={`${process.env.PUBLIC_URL + "/login"}`} element={<Login/>} />
+                  <Route path={`${process.env.PUBLIC_URL + "/dashboard"}`} element={<MainOne />} />
+                  <Route path={`${process.env.PUBLIC_URL + "/dashboard/expert"}`} element={<ExpertTechniques />} />
+                  <Route path={`${process.env.PUBLIC_URL + "/daytrade"}`} element={<PageDayTrade room={eventStandard} username={uname} />} />
                 </Routes>
             </Suspense>
         </NavScrollTop>
       </Router>
+      <ReactQueryDevtools initialIsOpen={false} />
+    </QueryClientProvider>
   );
 }
 

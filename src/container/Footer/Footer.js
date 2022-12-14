@@ -9,7 +9,6 @@ const Footer = () => {
         <div className="footer-section section footer-bg-color">
             <div className="container">
                 <div className="row mb-lg-14 mb-md-10 mb-6">
-
                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 col-12 mb-6">
                         <div className="footer-widget">
                             <div className="footer-logo">
@@ -19,8 +18,6 @@ const Footer = () => {
                             </div>
                             <div className="footer-widget-content">
                                 <div className="content">
-
-
                                     <p><Link to={process.env.PUBLIC_URL + "/"}>(+1) 212-946-2701</Link></p>
                                     <p><Link to={process.env.PUBLIC_URL + "/"}>hello@hasagency.com</Link> </p>
                                 </div>
@@ -34,22 +31,18 @@ const Footer = () => {
                     </div>
 
                     {FooterData && FooterData.map((single, key) => {
-                            return(
-                                <div key={key} className="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 mb-6">
-                                    <FooterLinkItem data={single} key={key} />
-                                </div>
-                            ); 
+                        return(
+                            <div key={key} className="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 mb-6">
+                                <FooterLinkItem data={single} key={key} />
+                            </div>
+                        ); 
                     })}
-
-
                 </div>
-
                 <div className="row">
                     <div className="col">
                         <p className="copyright">&copy; {new Date().getFullYear()} <strong>TradeSimp</strong></p>
                     </div>
                 </div>
-
             </div>
         </div>
     )
