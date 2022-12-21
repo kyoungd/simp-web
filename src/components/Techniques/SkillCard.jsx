@@ -28,12 +28,13 @@ SkillCard.propTypes = {
 const ExpandMore = styled((props) => {
   const { ...other } = props;
   return <IconButton {...other} />;
-})(({ theme, expand }) => ({
+})(({ expand }) => ({
   transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
   marginLeft: 'auto',
-  transition: theme.transitions.create('transform', {
-    duration: theme.transitions.duration.shortest
-  })
+  transitionDuration: 1500,
+  // transition: theme.transitions.create('transform', {
+  //   duration: theme.transitions.duration.shortest
+  // })
 }));
 
 const encapsulateParagraph = (text) => (

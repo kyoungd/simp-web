@@ -14,19 +14,23 @@ Messages.propTypes = {
   initMessages: PropTypes.array.isRequired
 };
 
-const StyledTableCell = styled(TableCell)(({ theme }) => ({
+// backgroundColor: theme.palette.common.black
+// color: theme.palette.common.whte
+// backgroundColor: theme.palette.action.hover
+
+const StyledTableCell = styled(TableCell)(() => ({
   [`&.${tableCellClasses.head}`]: {
-    backgroundColor: theme.palette.common.black,
-    color: theme.palette.common.white
+    backgroundColor: '#637381',
+    color: '#222222'
   },
   [`&.${tableCellClasses.body}`]: {
     fontSize: 14
   }
 }));
 
-const StyledTableRow = styled(TableRow)(({ theme }) => ({
+const StyledTableRow = styled(TableRow)(() => ({
   '&:nth-of-type(odd)': {
-    backgroundColor: theme.palette.action.hover
+    backgroundColor: '#f5f5f5'
   },
   // hide last border
   '&:last-child td, &:last-child th': {

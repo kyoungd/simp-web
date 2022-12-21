@@ -8,10 +8,12 @@ const UserDispatchContext = React.createContext();
 function userReducer(state, action) {
   switch (action.type) {
     case 'LOGIN_SUCCESS':
-        localStorage.setItem('user', JSON.stringify(action.payload.user));
-        localStorage.setItem('jwt', action.payload.jwt);
-        return { ...state, isAuthenticated: true, ...action.payload };
+      localStorage.setItem('user', JSON.stringify(action.payload.user));
+      localStorage.setItem('jwt', action.payload.jwt);
+      return { ...state, isAuthenticated: true, ...action.payload };
     case 'SIGN_OUT_SUCCESS':
+      localStorage.removeItem('user');
+      localStorage.removeItem('jwt', '');
       return { ...state, isAuthenticated: false };
     case 'SETTINGS':
       return { ...state, settings: action.payload };
@@ -20,7 +22,7 @@ function userReducer(state, action) {
   }
 }
 
-function getCookeUser() {
+function getCookieUser() {
   try {
     return JSON.parse(localStorage.getItem('user'))
   } catch {
@@ -33,7 +35,7 @@ function UserProvider({ children }) {
   const [state, dispatch] = React.useReducer(userReducer, {
     isAuthenticated: !!localStorage.getItem('jwt'),
     jwt: localStorage.getItem('jwt'),
-    user: getCookeUser(),
+    user: getCookieUser(),
     settings: {}
   });
 

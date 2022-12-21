@@ -12,11 +12,13 @@ const RootStyle = styled('div')({
   overflow: 'hidden'
 });
 
-const SimpleBarStyle = styled(SimpleBarReact)(({ theme }) => ({
+// const theme_pallet_grey_600 = '#637381';
+
+const SimpleBarStyle = styled(SimpleBarReact)(() => ({
   maxHeight: '100%',
   '& .simplebar-scrollbar': {
     '&:before': {
-      backgroundColor: alpha(theme.palette.grey[600], 0.48)
+      backgroundColor: alpha('#637381', 0.48)
     },
     '&.simplebar-visible:before': {
       opacity: 1

@@ -20,13 +20,16 @@ const BlogCategories = lazy(() => import("./pages/BlogCategories"));
 const BlogTag = lazy(() => import("./pages/BlogTag"));
 const Contact = lazy(() => import("./pages/Contact"));
 const Login = lazy(() => import("./pages/Login"));
+const Logout = lazy(() => import("./pages/Logout"));
 const MainOne = lazy(() => import("./pages/MainOne"));
 const ExpertTechniques = lazy(() => import("./pages/ExpertTechniques"));
 const PageDayTrade = lazy(() => import("./pages/PageDayTrade"));
-
+const PageTop10News = lazy(() => import("./pages/PageTop10News"));
+const PageSettings = lazy(() => import("./pages/PageSettings"));
+const Test = lazy(() => import("./pages/Test"));
 
 function App() {
-  const { isAuthenticated, user } = useUserState();
+  const { isAuthenticated, user, jwt } = useUserState();
   const uname = isAuthenticated ? user.username : '';
   const eventStandard = process.env.REACT_APP_REALTIME_EVENT_STANDARD;
 
@@ -62,9 +65,13 @@ function App() {
                   <Route path={`${process.env.PUBLIC_URL + "/blog-details/:id"}`}element={<BlogDetails/>} />
                   <Route path={`${process.env.PUBLIC_URL + "/contact"}`} element={<Contact/>} />
                   <Route path={`${process.env.PUBLIC_URL + "/login"}`} element={<Login/>} />
+                  <Route path={`${process.env.PUBLIC_URL + "/logout"}`} element={<Logout/>} />
                   <Route path={`${process.env.PUBLIC_URL + "/dashboard"}`} element={<MainOne />} />
                   <Route path={`${process.env.PUBLIC_URL + "/dashboard/expert"}`} element={<ExpertTechniques />} />
-                  <Route path={`${process.env.PUBLIC_URL + "/daytrade"}`} element={<PageDayTrade room={eventStandard} username={uname} />} />
+                  <Route path={`${process.env.PUBLIC_URL + "/daytrade"}`} element={<PageDayTrade room={eventStandard} username={uname} jwt={jwt} />} />
+                  <Route path={`${process.env.PUBLIC_URL + "/topnews"}`} element={<PageTop10News jwt={jwt} />} />
+                  <Route path={`${process.env.PUBLIC_URL + "/settings"}`} element={<PageSettings jwt={jwt} />} />
+                  <Route path={`${process.env.PUBLIC_URL + "/test"}`} element={<Test />} />
                 </Routes>
             </Suspense>
         </NavScrollTop>

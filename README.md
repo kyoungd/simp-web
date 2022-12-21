@@ -70,3 +70,50 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+### Dataset for strategy subscription technique.
+1054473799891955732
+6cgxpcV4CzkjFbUYfsOcWcavZimxW0ZC
+
+const a = [
+    {
+        "id": 1,
+        "sequence": 2,
+        "title": "ABCD PATTERN (DAY)",
+        "subtitle": "August 2, 2022",
+        "description": "The ABCD pattern is a highly recognizable value pattern that happens in stocks across the globe every day. \nThe main recognizable feature of an ABCD pattern is that the A to B leg (AB leg) matches the C to D leg (CD leg) — in other words, AB ≈ CD. The B to C leg (BC leg) meanwhile, represents pullbacks and consolidation of value. These patterns can go both ways and can thus be bullish or bearish. Depending on which it is, the investor will either buy or sell at the D point.\nThe ABCD pattern, though varied, is one of the most reliable and established patterns in trading. It can be used for investments in both bearish and bullish trends and gives the information necessary to avoid heavy losses. Although these patterns offer information to the investor, it is still paramount that they do their own research before investing, as markets can be affected by a plethora of external factors.",
+        "video": "C9G5KgB9Ze4",
+        "summary": "The ABCD pattern is one of the most popular strategies.  It is easy to recognize and implement.  It is common to look for additional confirmation with volume, MACD histogram, level 2 and time of the day.",
+        "createdAt": "2022-10-25T22:10:06.336Z",
+        "updatedAt": "2022-12-18T03:44:36.513Z",
+        "publishedAt": "2022-10-25T22:10:07.970Z",
+        "strategy": "ABC-001"
+    },
+    {
+        "id": 2,
+        "sequence": 1,
+        "title": "FIRST PULLBACK (DAY)",
+        "subtitle": "August 1, 2022",
+        "description": "Pullback strategies are popular because they are relatively simple to identify and have a solid track record in terms of investor returns.\nTrading pullbacks requires a degree of patience. The price movement is one big giveaway that a pullback is occurring – price falling away from a price peak being the obvious signal. There are other metrics to consider and, as importantly, at what time to step into the market to trade. At the time that price starts to change direction, there is every chance that the move could be more than short-lived.\nIf trading volumes increase at the time of the trade reversal, the move might be more fundamental in nature. If volumes are consistent, then there is more chance that the price move is short term in nature.\nAny price move accompanied by, or triggered by, market events or company news could signal a change in the perception of valuations and that the price move will be greater and longer-lasting.\nIf technical indicators such as trend lines and moving averages offer support to price, then this is an indication that the move is down to buyers temporarily running out of steam. The buyers are there, just at lower price levels. If price crashes through support levels, then this could be a sign that the price change is based on something else.",
+        "video": "N9SUmtuGnHQ",
+        "summary": "The first pullback of the day is a tried-and-true strategy used by seasoned and novice traders alike. It is the right entry and exit that makes the difference. ",
+        "createdAt": "2022-10-25T22:11:31.359Z",
+        "updatedAt": "2022-12-18T03:45:37.420Z",
+        "publishedAt": "2022-10-25T22:11:32.277Z",
+        "strategy": "FPB-001"
+    },
+];
+
+const b = ["ABC-001"];
+
+Create a react table with light background displaying this data with a selectable checkbox.  Use styled components for css.  Display id, title, summary and popup youtube video referenced by video field.  The value of the checkbox is set with useStrategy key.  Also, update the useStrategy key when checkbox is changed.
+
+
+create a react checkbox component with css. use styled-components. pass in the link text to display after checkbox.  add onClick event handler for when the link text is clicked.  Add onChange event handler for when checkbox is changed.
+
+### 
+
+To integrate Discord login with your website, you can use the Discord OAuth2 API. Here's a general outline of the steps you will need to follow:
+
+Create a Discord Developer account at https://discord.com/developers/ and create a new application.
+In your application's settings, enable the "OAuth2" feature and add a redirect URL for your website. This is the URL that the user will be redirected to after they grant your website access to their Discord account.
+On your website, create a link or button that will initiate the login process. The link should use the following format:

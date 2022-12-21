@@ -19,10 +19,10 @@ const NavBar = () => {
                             <NavLink to={process.env.PUBLIC_URL + "/daytrade"}><span className="menu-text">Day Trade</span></NavLink>
                         </li>
                         <li>
-                            <NavLink to={process.env.PUBLIC_URL + "/news10"}><span className="menu-text">Top News</span></NavLink>
+                            <NavLink to={process.env.PUBLIC_URL + "/topnews"}><span className="menu-text">Top News</span></NavLink>
                         </li>
                         <li className="has-children">
-                            <NavLink to={process.env.PUBLIC_URL + "/account"}><span className="menu-text">Account</span></NavLink>
+                            <NavLink to={process.env.PUBLIC_URL + "/settings"}><span className="menu-text">Account</span></NavLink>
                             <span className="menu-toggle"><i className="far fa-angle-down"></i></span>
                             <ul className="sub-menu">
                                 <li><NavLink to={process.env.PUBLIC_URL + "/settings"}><span className="menu-text">Settings</span></NavLink></li>
@@ -30,7 +30,7 @@ const NavBar = () => {
                                 <li><NavLink to={process.env.PUBLIC_URL + "/billings"}><span className="menu-text">Billings</span></NavLink></li>
                                 <li> <NavLink to={process.env.PUBLIC_URL + "/contact"}><span className="menu-text">Contact Us</span></NavLink></li>
                                 <hr />
-                                <li><NavLink to={process.env.PUBLIC_URL + `/work`}><span className="menu-text">Log Out</span></NavLink></li>
+                                <li><NavLink to={process.env.PUBLIC_URL + `/logout`}><span className="menu-text">Log Out</span></NavLink></li>
                             </ul>
                         </li>
                     </>

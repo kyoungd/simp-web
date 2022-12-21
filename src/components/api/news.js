@@ -16,28 +16,6 @@ async function getCompanyNews(jwt, symbol) {
   return dataArray;
 }
 
-function newsCleanup(result) {
-  const rows = result.data.data;
-  const results = [];
-  // eslint-disable-next-line no-restricted-syntax
-  for (const row of rows) {
-    try {
-      const item = {
-        news_on: row.attributes.created_at,
-        headline: row.attributes.headline,
-        summary: row.attributes.summary,
-        sentiment: row.attributes.sentiment === undefined ? 0 : row.attributes.sentiment,
-        url: row.attributes.url,
-        symbols: row.attributes.symbols.toString()
-      };
-      results.push(item);
-    } catch (e) {
-      console.log('error: ', e, '  ', row);
-    }
-  }
-  return results;
-}
-
 async function getTop10News(jwt) {
   const url = process.env.REACT_APP_NEWS_TOP10_URL || 'http://localhost:1337/api/newsitems';
   const result = await axios.get(url, {
@@ -45,8 +23,7 @@ async function getTop10News(jwt) {
       Authorization: `Bearer ${jwt}`
     }
   });
-  const news = newsCleanup(result);
-  return news;
+  return result;
 }
 
 export { getCompanyNews, getTop10News };
