@@ -26,6 +26,8 @@ const ExpertTechniques = lazy(() => import("./pages/ExpertTechniques"));
 const PageDayTrade = lazy(() => import("./pages/PageDayTrade"));
 const PageTop10News = lazy(() => import("./pages/PageTop10News"));
 const PageSettings = lazy(() => import("./pages/PageSettings"));
+const PageBilling = lazy(() => import("./pages/PageBilling"));
+const PageSchedule = lazy(() => import("./pages/PageSchedule"));
 const Test = lazy(() => import("./pages/Test"));
 
 function App() {
@@ -71,6 +73,8 @@ function App() {
                   <Route path={`${process.env.PUBLIC_URL + "/daytrade"}`} element={<PageDayTrade room={eventStandard} username={uname} jwt={jwt} />} />
                   <Route path={`${process.env.PUBLIC_URL + "/topnews"}`} element={<PageTop10News jwt={jwt} />} />
                   <Route path={`${process.env.PUBLIC_URL + "/settings"}`} element={<PageSettings jwt={jwt} />} />
+                  <Route path={`${process.env.PUBLIC_URL + "/billings"}`} element={<PageBilling jwt={jwt} />} />
+                  <Route path={`${process.env.PUBLIC_URL + "/schedule"}`} element={<PageSchedule jwt={jwt} />} />
                   <Route path={`${process.env.PUBLIC_URL + "/test"}`} element={<Test />} />
                 </Routes>
             </Suspense>

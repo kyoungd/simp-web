@@ -6,7 +6,7 @@ import Footer from '../container/Footer/Footer';
 import ScrollToTop from '../components/ScrollToTop.jsx';
 import {useQuery} from 'react-query';
 import PropTypes from 'prop-types';
-import ThreeDotsWave from '../components/Work/ThreeDotWave';
+import ThreeDotWave from '../components/Work/ThreeDotWave';
 
 // components
 import {getTop10News} from '../components/api/news';
@@ -37,7 +37,7 @@ export default function PageTop10News({jwt, classOption}) {
             <SEO title="TradeSimp || Top 10 News"/>
             <Header/>
             <Breadcrumb image="images/bg/breadcrumb-bg-three.jpg" title="We work with bold brands that we believe in" content="Home" contentTwo="Top-10-News"/>
-            { isLoading && <ThreeDotsWave /> }
+            { isLoading && <ThreeDotWave /> }
             { isError && <div>Error: { error.message } </div> }
             { isSuccess && (
                     <div className={

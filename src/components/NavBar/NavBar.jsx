@@ -26,7 +26,7 @@ const NavBar = () => {
                             <span className="menu-toggle"><i className="far fa-angle-down"></i></span>
                             <ul className="sub-menu">
                                 <li><NavLink to={process.env.PUBLIC_URL + "/settings"}><span className="menu-text">Settings</span></NavLink></li>
-                                <li><NavLink to={process.env.PUBLIC_URL + `/schedules`}><span className="menu-text">Schdule</span></NavLink></li>
+                                <li><NavLink to={process.env.PUBLIC_URL + `/schedule`}><span className="menu-text">Schdule</span></NavLink></li>
                                 <li><NavLink to={process.env.PUBLIC_URL + "/billings"}><span className="menu-text">Billings</span></NavLink></li>
                                 <li> <NavLink to={process.env.PUBLIC_URL + "/contact"}><span className="menu-text">Contact Us</span></NavLink></li>
                                 <hr />

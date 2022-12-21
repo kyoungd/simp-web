@@ -117,3 +117,40 @@ To integrate Discord login with your website, you can use the Discord OAuth2 API
 Create a Discord Developer account at https://discord.com/developers/ and create a new application.
 In your application's settings, enable the "OAuth2" feature and add a redirect URL for your website. This is the URL that the user will be redirected to after they grant your website access to their Discord account.
 On your website, create a link or button that will initiate the login process. The link should use the following format:
+
+
+
+Create a react native app using expo.io.  Use clean design with light background.  Use React Native Element for UI. Once activated, a text display screen should show up. It will listen and convert the voice to text (speech to text). Ignore all text until the word "dex". Capture and display all the text on the screen until there is a 2 second pause. Convert the captured phrase to json to format.  { "inquery": "captured-speech" }.  Use axios and HTTP post to upload the json string to the url "https://simp-admin.herokuapp.com/api/gpt3".  It will return a json string back.  You should be able to access the speech data as 'data.attributes.result'.  Display this on this text on the screen. Converts the response to speech (text to speech).  and say it. It will start to listen again and wait for the word "dex" to repeat the process.
+
+
+Create a General Weekly Schedule calendar in React with light background and styled-components.  CRUD this json string as data.
+[
+  {
+    "id": 1,
+    "end": "11:00:00Z",
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "start": "09:30:00Z",
+    "title": "Class A1",
+    "bgColor": "green"
+  },
+  {
+    "id": 2,
+    "end": "16:30:00Z",
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "start": "15:30:00Z",
+    "title": "Class B2",
+    "bgColor": "green"
+  }
+]
