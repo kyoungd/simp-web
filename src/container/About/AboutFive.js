@@ -47,11 +47,11 @@ const AboutFive = () => {
                     <div className="col-xl-5 col-lg-6 col-12" data-aos="fade-up" data-aos-delay="300">
                         <div className="about-content-area">
                             <SectionTitleTwo 
-                                subTitle="Our solutions begin with brand research"
-                                title="We’ve worked alongside plenty of brands &amp; startups"
+                                subTitle="Our solutions begin with trade experts"
+                                title="Working with trade experts to teach AI what makes them successful"
                             />
 
-                            <p>Our team of designers and developers are perfectionists who love what they do – we thrive off pushing the boundaries of our clients’ expectations and our own capabilities.</p>
+                            <p>We believe that by combining the power of AI with the expertise of our trading professionals, we are able to offer a unique and highly effective approach to trading. So if you are looking for a reliable partner to help you navigate the markets and make smart decisions, look no further.</p>
 
                             <Link className="btn btn-primary btn-hover-secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" to={process.env.PUBLIC_URL + "/"}>Get Started</Link>
                         </div>

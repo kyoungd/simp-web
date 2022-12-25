@@ -22,7 +22,7 @@ const AboutUs = () => {
             <Header />
             <Breadcrumb 
                 image="images/bg/breadcrumb-bg.jpg"
-                title="We are an agency located in New York"
+                title="We combine human and AI to help you trade better"
                 content="Home"
                 contentTwo="About Us"
             />

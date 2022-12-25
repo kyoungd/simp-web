@@ -32,8 +32,8 @@ const AboutFour = () => {
                     <div className="col-xl-6 col-lg-6 col-12" data-aos="fade-up">
                         <div className="about-content-area mt-0 mb-md-10 mb-10">
                             <SectionTitleTwo 
-                                subTitle="Web design and digital marketing"
-                                title="We think strategy, UX design, and web development"
+                                subTitle="AI and trade experts together"
+                                title="A unique and highly effective approach to trading"
                             />
 
                             <div className="row row-cols-sm-2 row-cols-auto mb-n6">
@@ -48,8 +48,8 @@ const AboutFour = () => {
                                                     <CountUp end={didViewCountUp ? 110 : 0} />
                                             </VisibilitySensor>+
                                         </div>
-                                        <h6 className="text">Happy Clients</h6>
-                                        <p>We help our clients increase profits by increasing their visibility online.</p>
+                                        <h6 className="text">Quality Trades</h6>
+                                        <p>We help our clients increase profits by increase in finding quality trades.</p>
                                     </div>
                                 </div>
                                 <div className="col mb-6">
@@ -63,8 +63,8 @@ const AboutFour = () => {
                                                 <CountUp end={didViewCountUp ? 130 : 0} />
                                             </VisibilitySensor>+
                                         </div>
-                                        <h6 className="text">Completed projects</h6>
-                                        <p>We help our clients increase profits by increasing their visibility online.</p>
+                                        <h6 className="text">Better Entry and Exit</h6>
+                                        <p>Increase profits with expert traders by timing the optimal entry and exit.</p>
                                     </div>
                                 </div>
                             </div>

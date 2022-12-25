@@ -1,11 +1,21 @@
 import {Fragment, useState, useEffect} from "react";
-import Logo from '../../components/logo/Logo';
+import styled from 'styled-components';
+// import Logo from '../../components/logo/Logo';
 import NavBar from '../../components/NavBar/NavBar';
 import HeaderSearch from '../../components/HeaderSearch/HeaderSearch';
 import BtnLink from '../../components/Btn/BtnLink';
 import MobileMenu from "../../components/NavBar/MobileMenu"
 import MainSearch from "../../components/NavBar/MainSearch"
 import { useUserState } from '../../components/UserContext';
+
+const LogoStyle = styled.p`
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    padding: 10px 5px;
+    color: #fff;
+    margin-bottom: 0; 
+`;
 
 const Header = () => {
     const { isAuthenticated, user } = useUserState();
@@ -43,9 +53,10 @@ const Header = () => {
                     <div className="container position-relative">
                         <div className="row justify-content-between align-items-center">
                             <div className="col-xl-2 col-auto order-0">
-                                <Logo 
+                                <LogoStyle><strong>TRADESIMP</strong></LogoStyle>
+                                {/* <Logo 
                                     image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
-                                />
+                                /> */}
                             </div>
                             <div className="col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1">
                                 <div className="menu-column-area d-none d-xl-block position-static">

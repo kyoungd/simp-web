@@ -1,8 +1,18 @@
 import React from 'react';
+import styled from 'styled-components';
 import {Link} from "react-router-dom";
-import Logo from '../../components/logo/Logo';
+// import Logo from '../../components/logo/Logo';
 import FooterData from '../../data/Footer/footerItem.json';
 import FooterLinkItem from '../../components/Footer/FooterLinkItem.jsx';
+
+const LogoStyle = styled.p`
+    font-size: 24px;
+    line-height: 25px;
+    text-align: left;
+    padding: 10px 5px;
+    color: #fff;
+    margin-bottom: 0; 
+`;
 
 const Footer = () => {
     return (
@@ -12,14 +22,15 @@ const Footer = () => {
                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 col-12 mb-6">
                         <div className="footer-widget">
                             <div className="footer-logo">
-                                <Logo 
+                                <LogoStyle>TRADESIMP</LogoStyle>
+                                {/* <Logo 
                                     image={`${process.env.PUBLIC_URL}/images/logo/footer-logo.png`}
-                                />
+                                /> */}
                             </div>
                             <div className="footer-widget-content">
                                 <div className="content">
-                                    <p><Link to={process.env.PUBLIC_URL + "/"}>(+1) 212-946-2701</Link></p>
-                                    <p><Link to={process.env.PUBLIC_URL + "/"}>hello@hasagency.com</Link> </p>
+                                    <p><Link to={process.env.PUBLIC_URL + "/"}>(+1) 818-934-0758</Link></p>
+                                    <p><Link to={process.env.PUBLIC_URL + "/"}>info@tradesimp.com</Link> </p>
                                 </div>
                                 <div className="footer-social-inline">
                                     <a href="#"><i className="fab fa-twitter-square"></i></a>

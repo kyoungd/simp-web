@@ -4,7 +4,6 @@ import { Stack, Container, Typography } from '@mui/material';
 import axios from 'axios';
 
 // components
-import Page from '../components/Page';
 import CollapsibleTable from '../components/CollapsibleTable';
 import Cookie from '../utils/cookies';
 
@@ -63,7 +62,7 @@ export default function ExpertChannels() {
   }, [setChannelInfo]);
 
   return (
-    <Page title="TRADESIMP">
+    <>
       <Container maxWidth="lg">
         <Stack direction="row" alignItems="center" justifyContent="space-between" mb={5}>
           <Typography variant="h4" gutterBottom>
@@ -74,6 +73,6 @@ export default function ExpertChannels() {
           {channelInfo.length > 0 ? <CollapsibleTable data={channelInfo} /> : <div>loading...</div>}
         </Container>
       </Container>
-    </Page>
+    </>
   );
 }
