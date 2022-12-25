@@ -10,8 +10,8 @@ const ContactFromContainer = () => {
                     <div className="offset-lg-2 col-lg-8">
                         <SectionTitle
                             headingOption="fz-32"
-                            title="Let’s talk about your project"
-                            subTitle="We have made it easy for clients to reach us and get their solutions weaved"
+                            title="Let’s talk."
+                            subTitle="If you have any questions, feel free to ask."
                         />
                         <ContactFrom />
                     </div>

@@ -30,7 +30,7 @@ const Video = () => {
                 />
 
                 <button className="play-btn icon video-popup" onClick={()=> setOpen(true)}><i className="fas fa-play"></i></button>
-                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="v4uJvQINGmk" onClose={() => setOpen(false)}/>
+                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="oDusrLBYptU" onClose={() => setOpen(false)}/>
 
             </div>
 

@@ -1,81 +1,162 @@
 [
     {
-        "id": 1,
-        "image": "images/blog/370/blog-1.jpg",
-        "largeImage": "images/blog/770/blog-2.jpg",
-        "author": "Written by Admin",
-        "date": "10 Oct 2020",
-        "view": "70 views",
-        "categories": ["Marketing", "UX Design"],
-        "title": "How your sales can work together in account-based marketing",
-        "excerpt": "We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
-        "body":  ["<p><strong>We have always known the power of digital, and we have mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that busine- sses have been talking about for so long, and those colleagues are turning to us in Marketing to provide guidance.</strong></p>", "<p>Even if it is a brave new world for everyone else, for marketers it is another day in the proverbial office.</p>", "<p>Now, the digital evolution is resonating across organizations. The pandemic has shifted internal structures and changed relationships with customers, and as a result marketers have become more valuable than ever.</p>", "<p><strong>The Shift Inside Organizations: Marketers Become Indispensable in a Digital World.</strong></p>", "<p>Marketing has often been known as the department that makes PowerPoints and polishes websites. That was not ever close to the whole truth, of course, but past company structures — in which Marketing always played second fiddle to Sales — allowed that falsehood to persist.</p>", "<p>The pandemic has transformed what the marketing team means to an organization: It is given us agency. It is upended the customer journey. It is redefined how sales and marketing teams should interact. And it is forced businesses to see the value that marketers provide in a digital world.</p>"],
-        "tags": ["App", "Branding", "Development", "Design"]
+       "id":1,
+       "image":"images/blog/370/blog-1.jpg",
+       "largeImage":"images/blog/770/blog-2.jpg",
+       "author":"Written by Admin",
+       "date":"10 Oct 2020",
+       "view":"70 views",
+       "categories":[
+          "Marketing",
+          "UX Design"
+       ],
+       "title":"Why volume is so important in trading",
+       "excerpt":"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
+       "body":[
+          "<p><strong>Volume is a key indicator in stock trading that can provide valuable information about the strength and direction of a stock's price movements. It refers to the number of shares or contracts traded in a particular security or market during a given period of time.</strong></p>",
+          "<p>One reason why volume is so important is because it can indicate the level of interest in a particular stock. A high volume of trades can indicate strong demand for a stock, while a low volume may indicate a lack of interest. This can be particularly useful for traders who are trying to gauge the strength of a trend. For example, if a stock is experiencing an uptrend and the volume is increasing, it may be a good sign that the trend is likely to continue. On the other hand, if the volume is decreasing while the price is rising, it may be a sign that the uptrend is losing steam and could potentially reverse.</p>",
+          "<p>Another reason why volume is important is because it can provide clues about the underlying health of a company. A high volume of trades can be a sign of a company that is experiencing strong growth or is in high demand, while a low volume may indicate a company that is struggling or facing challenges. This can be especially useful for investors who are looking to make long-term investments and want to get a sense of the company's overall financial health.</p>",
+          "<p><strong>In addition to providing information about the demand and health of a particular stock, volume can also be used as a way to confirm price movements. For example, if a stock is experiencing a strong uptrend, a high volume of trades can help to confirm that the trend is likely to continue. Similarly, if a stock is experiencing a downtrend and the volume is decreasing, it may be a sign that the downtrend is coming to an end.</strong></p>",
+          "<p>Overall, volume is an important indicator in stock trading that can provide valuable information about the strength and direction of a stock's price movements. By paying attention to volume, traders and investors can make more informed decisions about when to buy and sell stocks.</p>"
+       ],
+       "tags":[
+          "App",
+          "Branding",
+          "Development",
+          "Design"
+       ]
     },
     {
-        "id": 2,
-        "image": "images/blog/370/blog-2.jpg",
-        "largeImage": "images/blog/770/blog-1.jpg",
-        "author": "Written by Admin",
-        "date": "10 Oct 2020",
-        "view": "70 views",
-        "categories": ["App", "Startup"],
-        "title": "The six things marketers need to understand about DTC marketing",
-        "excerpt": "Beautiful and usable design can be the deciding factor between a successful and a failing business. Great designers are treated like superstars. And it’s so fulfilling to design beautiful things that people love to use.",
-        "body":  ["<p><strong>We have always known the power of digital, and we have mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that busine- sses have been talking about for so long, and those colleagues are turning to us in Marketing to provide guidance.</strong></p>", "<p>Even if it is a brave new world for everyone else, for marketers it is another day in the proverbial office.</p>", "<p>Now, the digital evolution is resonating across organizations. The pandemic has shifted internal structures and changed relationships with customers, and as a result marketers have become more valuable than ever.</p>", "<p><strong>The Shift Inside Organizations: Marketers Become Indispensable in a Digital World.</strong></p>", "<p>Marketing has often been known as the department that makes PowerPoints and polishes websites. That was not ever close to the whole truth, of course, but past company structures — in which Marketing always played second fiddle to Sales — allowed that falsehood to persist.</p>", "<p>The pandemic has transformed what the marketing team means to an organization: It is given us agency. It is upended the customer journey. It is redefined how sales and marketing teams should interact. And it is forced businesses to see the value that marketers provide in a digital world.</p>"],
-        "tags": ["App", "Branding", "Development", "Design"]
+       "id":2,
+       "image":"images/blog/370/blog-2.jpg",
+       "largeImage":"images/blog/770/blog-1.jpg",
+       "author":"Written by Admin",
+       "date":"10 Oct 2020",
+       "view":"70 views",
+       "categories":[
+          "App",
+          "Startup"
+       ],
+       "title":"Backtest result - best trading pattern",
+       "excerpt":"Beautiful and usable design can be the deciding factor between a successful and a failing business. Great designers are treated like superstars. And it’s so fulfilling to design beautiful things that people love to use.",
+       "body":[
+          "<p><strong>According to a recent back study, the head and shoulders pattern is the best chart pattern for identifying potential trend reversals in the stock market. This pattern, which is characterized by a series of three peaks on the price chart, is often seen as a bearish reversal pattern, indicating that the stock may be about to reverse its uptrend and start trending downward.</strong></p>",
+          "<p>To identify a head and shoulders pattern, traders will look for the following characteristics:</p>",
+          "<ul><li>The left shoulder: The first peak in the pattern, which is usually lower than the head.</li><li>The head: The second peak in the pattern, which is the highest of the three peaks.</li><li>The right shoulder: The third peak in the pattern, which is usually lower than the head.</li><li>The neckline: The line connecting the lows between the left shoulder, head, and right shoulder. A break below the neckline is often seen as a confirmation of the head and shoulders pattern and a sign that the stock may be about to reverse its uptrend.</li> </ul>",
+          "<p><strong>According to the back study</strong>, the head and shoulders pattern has proven to be a reliable indicator of trend reversals in the past, with a high success rate in predicting future price movements. However, it's important to note that no chart pattern is guaranteed to be successful and it's important to use other technical indicators or analysis techniques in conjunction with the pattern to confirm potential trade signals. It's also important to manage your risk carefully when trading.</p>",
+          "<p>Overall, the head and shoulders pattern is a useful tool for traders who are looking to identify potential trend reversals in the stock market. By paying attention to this pattern and combining it with other technical indicators or analysis techniques, traders can make more informed decisions about when to buy and sell stocks.</p>"
+       ],
+       "tags":[
+          "App",
+          "Branding",
+          "Development",
+          "Design"
+       ]
     },
     {
-        "id": 3,
-        "image": "images/blog/370/blog-3.jpg",
-        "largeImage": "images/blog/770/blog-3.jpg",
-        "author": "Written by Admin",
-        "date": "10 Oct 2020",
-        "view": "70 views",
-        "categories": ["UX Design", "Marketing"],
-        "title": "Eleven top tips for developing agile marketing",
-        "excerpt": "Beautiful and usable design can be the deciding factor between a successful and a failing business. Great designers are treated like superstars. And it’s so fulfilling to design beautiful things that people love to use.",
-        "body":  ["<p><strong>We have always known the power of digital, and we have mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that busine- sses have been talking about for so long, and those colleagues are turning to us in Marketing to provide guidance.</strong></p>", "<p>Even if it is a brave new world for everyone else, for marketers it is another day in the proverbial office.</p>", "<p>Now, the digital evolution is resonating across organizations. The pandemic has shifted internal structures and changed relationships with customers, and as a result marketers have become more valuable than ever.</p>", "<p><strong>The Shift Inside Organizations: Marketers Become Indispensable in a Digital World.</strong></p>", "<p>Marketing has often been known as the department that makes PowerPoints and polishes websites. That was not ever close to the whole truth, of course, but past company structures — in which Marketing always played second fiddle to Sales — allowed that falsehood to persist.</p>", "<p>The pandemic has transformed what the marketing team means to an organization: It is given us agency. It is upended the customer journey. It is redefined how sales and marketing teams should interact. And it is forced businesses to see the value that marketers provide in a digital world.</p>"],
-        "tags": ["App", "Branding", "Development", "Design"]
+       "id":3,
+       "image":"images/blog/370/blog-3.jpg",
+       "largeImage":"images/blog/770/blog-3.jpg",
+       "author":"Written by Admin",
+       "date":"10 Oct 2020",
+       "view":"70 views",
+       "categories":[
+          "UX Design",
+          "Marketing"
+       ],
+       "title":"Price action every day",
+       "excerpt":"Beautiful and usable design can be the deciding factor between a successful and a failing business. Great designers are treated like superstars. And it’s so fulfilling to design beautiful things that people love to use.",
+       "body":[
+          "<p><strong>Price action is a term used to describe the movement of a security's price over a given period of time. It is a key concept in technical analysis and is used by traders to identify potential trading opportunities and make informed decisions about when to buy and sell stocks.</strong></p>",
+          "<p>There are several ways that traders can analyze price action, including:</p>",
+          "<ul> <li>Chart patterns: Traders can look for specific patterns on a stock chart, such as head and shoulders or cup and handle patterns, to identify potential trend changes or trading opportunities.</li> <li>Trend lines: Traders can draw trend lines on a stock chart to identify the direction of the trend and look for potential breakouts or reversals.</li> <li>Support and resistance levels: Traders can identify key price levels where a stock may find support (a level at which the price is likely to bounce back up) or resistance (a level at which the price is likely to stall or reverse).</li> <li>Candlestick patterns: Traders can analyze the shape and patterns of candlesticks on a stock chart to identify potential trend changes or trading opportunities.</li> </ul>",
+          "<p><strong>In addition to these techniques, traders may also use indicators such as moving averages or oscillators to help confirm potential trade signals identified through price action analysis.</strong></p>",
+          "<p>It's important to note that price action analysis is just one aspect of technical analysis and should be used in conjunction with other analysis techniques and fundamental analysis to make informed trading decisions. It's also important to manage your risk carefully when trading based on price action analysis.</p>"
+       ],
+       "tags":[
+          "App",
+          "Branding",
+          "Development",
+          "Design"
+       ]
     },
     {
-        "id": 4,
-        "image": "images/blog/370/blog-4.jpg",
-        "largeImage": "images/blog/770/blog-3.jpg",
-        "author": "Written by Admin",
-        "date": "10 Oct 2020",
-        "view": "70 views",
-        "categories": ["Startup", "UX Design", "Marketing"],
-        "title": "How your sales can work together in account-based marketing",
-        "excerpt": "Beautiful and usable design can be the deciding factor between a successful and a failing business. Great designers are treated like superstars. And it’s so fulfilling to design beautiful things that people love to use.",
-        "body":  ["<p><strong>We have always known the power of digital, and we have mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that busine- sses have been talking about for so long, and those colleagues are turning to us in Marketing to provide guidance.</strong></p>", "<p>Even if it is a brave new world for everyone else, for marketers it is another day in the proverbial office.</p>", "<p>Now, the digital evolution is resonating across organizations. The pandemic has shifted internal structures and changed relationships with customers, and as a result marketers have become more valuable than ever.</p>", "<p><strong>The Shift Inside Organizations: Marketers Become Indispensable in a Digital World.</strong></p>", "<p>Marketing has often been known as the department that makes PowerPoints and polishes websites. That was not ever close to the whole truth, of course, but past company structures — in which Marketing always played second fiddle to Sales — allowed that falsehood to persist.</p>", "<p>The pandemic has transformed what the marketing team means to an organization: It is given us agency. It is upended the customer journey. It is redefined how sales and marketing teams should interact. And it is forced businesses to see the value that marketers provide in a digital world.</p>"],
-        "tags": ["App", "Branding", "Development", "Design"]
+       "id":4,
+       "image":"images/blog/370/blog-4.jpg",
+       "largeImage":"images/blog/770/blog-3.jpg",
+       "author":"Written by Admin",
+       "date":"10 Oct 2020",
+       "view":"70 views",
+       "categories":[
+          "Startup",
+          "UX Design",
+          "Marketing"
+       ],
+       "title":"Why investing in S&P 500 is so good?",
+       "excerpt":"Beautiful and usable design can be the deciding factor between a successful and a failing business. Great designers are treated like superstars. And it’s so fulfilling to design beautiful things that people love to use.",
+       "body":[
+          "<p><strong>There are several reasons why investing in the S&P 500 index can be a good choice for some investors. </strong></p>",
+          "<p>Here are a few of those reasons:</p>",
+          "<ul> <li>Diversification: The S&P 500 index is made up of 500 of the largest publicly traded companies in the United States, representing a broad range of industries. This means that when you invest in the S&P 500, you are automatically diversifying your investment across a wide range of companies and sectors.</li> <li>Low costs: One of the main benefits of investing in index funds, like those that track the S&P 500, is that they tend to have low expenses. Because index funds are passive investments that simply track the performance of a particular index, they don't require the same level of research and analysis as actively managed funds. As a result, they often have lower fees, which can make a big difference over the long term.</li> <li>Strong historical performance: The S&P 500 has a long track record of strong returns. While past performance is no guarantee of future results, the index has historically provided investors with solid returns over the long term.</li> <li>Liquidity: Because the S&P 500 is made up of some of the largest and most well-known companies in the world, it is highly liquid, meaning it is easy to buy and sell shares in the index. This can be especially important for investors who may need to sell their investments quickly in the event of an emergency or other unforeseen circumstances.</li> </ul>",
+          "<p>It is important to note that investing in the S&P 500, or any other investment, carries some level of risk. It's important to carefully consider your investment goals and risk tolerance before making any investment decisions.</p>"
+       ],
+       "tags":[
+          "App",
+          "Branding",
+          "Development",
+          "Design"
+       ]
     },
     {
-        "id": 5,
-        "image": "images/blog/370/blog-5.jpg",
-        "largeImage": "images/blog/770/blog-3.jpg",
-        "author": "Written by Admin",
-        "date": "10 Oct 2020",
-        "view": "70 views",
-        "categories": ["Startup", "Marketing"],
-        "title": "The six things marketers need to understand about DTC marketing",
-        "excerpt": "Beautiful and usable design can be the deciding factor between a successful and a failing business. Great designers are treated like superstars. And it’s so fulfilling to design beautiful things that people love to use.",
-        "body":  ["<p><strong>We have always known the power of digital, and we have mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that busine- sses have been talking about for so long, and those colleagues are turning to us in Marketing to provide guidance.</strong></p>", "<p>Even if it is a brave new world for everyone else, for marketers it is another day in the proverbial office.</p>", "<p>Now, the digital evolution is resonating across organizations. The pandemic has shifted internal structures and changed relationships with customers, and as a result marketers have become more valuable than ever.</p>", "<p><strong>The Shift Inside Organizations: Marketers Become Indispensable in a Digital World.</strong></p>", "<p>Marketing has often been known as the department that makes PowerPoints and polishes websites. That was not ever close to the whole truth, of course, but past company structures — in which Marketing always played second fiddle to Sales — allowed that falsehood to persist.</p>", "<p>The pandemic has transformed what the marketing team means to an organization: It is given us agency. It is upended the customer journey. It is redefined how sales and marketing teams should interact. And it is forced businesses to see the value that marketers provide in a digital world.</p>"],
-        "tags": ["App", "Branding", "Development", "Design"]
+       "id":5,
+       "image":"images/blog/370/blog-5.jpg",
+       "largeImage":"images/blog/770/blog-3.jpg",
+       "author":"Written by Admin",
+       "date":"10 Oct 2020",
+       "view":"70 views",
+       "categories":[
+          "Startup",
+          "Marketing"
+       ],
+       "title":"Advantages of swing trading",
+       "excerpt":"Beautiful and usable design can be the deciding factor between a successful and a failing business. Great designers are treated like superstars. And it’s so fulfilling to design beautiful things that people love to use.",
+       "body":[
+          "<p><strong>Swing trading and day trading are both styles of trading that involve buying and selling securities within a relatively short time frame, with the goal of making profits from short-term price movements.</strong></p>",
+          "<p>Here are some potential advantages of swing trading over day trading:</p>",
+          "<ul> <li>Greater flexibility: One advantage of swing trading is that it allows traders to hold positions for longer periods of time, which can provide greater flexibility in terms of when to enter and exit trades. This can be especially useful for traders who have other commitments or responsibilities that may not allow them to constantly monitor the markets.</li> <li>Less time commitment: Because swing traders hold positions for longer periods of time, they typically don't need to spend as much time actively trading as day traders do. This can be a significant advantage for traders who don't want to be tied to their screens all day.</li> <li>Greater potential for profits: Because swing traders are able to hold positions for longer periods of time, they may be able to capture larger price movements and potentially realize greater profits. This is because they are able to ride out short-term fluctuations in the market and take advantage of longer-term trends.</li> <li>Lower stress: Day trading can be a very stressful activity, as it requires traders to constantly monitor the markets and make quick decisions. In contrast, swing traders can take a more relaxed approach and allow their trades to play out over a longer period of time, which can be less stressful.</li> </ul>",
+          "<p>It's important to note that both swing trading and day trading carry their own set of risks and challenges. It's important for traders to carefully consider their goals, risk tolerance, and time commitments before deciding which style of trading is right for them.</p>"
+       ],
+       "tags":[
+          "App",
+          "Branding",
+          "Development",
+          "Design"
+       ]
     },
     {
-        "id": 6,
-        "image": "images/blog/370/blog-6.jpg",
-        "largeImage": "images/blog/770/blog-3.jpg",
-        "author": "Written by Admin",
-        "date": "10 Oct 2020",
-        "view": "70 views",
-        "categories": ["Startup", "UX Design"],
-        "title": "Eleven top tips for developing agile marketing",
-        "excerpt": "Beautiful and usable design can be the deciding factor between a successful and a failing business. Great designers are treated like superstars. And it’s so fulfilling to design beautiful things that people love to use.",
-        "body":  ["<p><strong>We have always known the power of digital, and we have mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that busine- sses have been talking about for so long, and those colleagues are turning to us in Marketing to provide guidance.</strong></p>", "<p>Even if it is a brave new world for everyone else, for marketers it is another day in the proverbial office.</p>", "<p>Now, the digital evolution is resonating across organizations. The pandemic has shifted internal structures and changed relationships with customers, and as a result marketers have become more valuable than ever.</p>", "<p><strong>The Shift Inside Organizations: Marketers Become Indispensable in a Digital World.</strong></p>", "<p>Marketing has often been known as the department that makes PowerPoints and polishes websites. That was not ever close to the whole truth, of course, but past company structures — in which Marketing always played second fiddle to Sales — allowed that falsehood to persist.</p>", "<p>The pandemic has transformed what the marketing team means to an organization: It is given us agency. It is upended the customer journey. It is redefined how sales and marketing teams should interact. And it is forced businesses to see the value that marketers provide in a digital world.</p>"],
-        "tags": ["App", "Branding", "Development", "Design"]
+       "id":6,
+       "image":"images/blog/370/blog-6.jpg",
+       "largeImage":"images/blog/770/blog-3.jpg",
+       "author":"Written by Admin",
+       "date":"10 Oct 2020",
+       "view":"70 views",
+       "categories":[
+          "Startup",
+          "UX Design"
+       ],
+       "title":"Importance of trade commision",
+       "excerpt":"Beautiful and usable design can be the deciding factor between a successful and a failing business. Great designers are treated like superstars. And it’s so fulfilling to design beautiful things that people love to use.",
+       "body":[
+          "<p><strong>Trade commissions are fees that are charged by brokerage firms for executing trades on behalf of their clients. In general, trade commissions can be an important consideration for investors, as they can have a significant impact on the overall cost of trading.</strong></p>",
+          "<p>There are a few different factors that can influence the size of a trade commission, including the type of brokerage firm being used, the type of account being opened, and the size and frequency of trades being made. Some brokerage firms charge higher trade commissions for certain types of securities or for larger trades, while others may offer lower commissions for more frequent trading activity.</p>",
+          "<p>For many investors, trade commissions can be a significant factor in determining which brokerage firm to use. Some firms may offer lower commissions but make up for it with other fees, such as account maintenance fees or inactivity fees. As a result, it's important for investors to carefully compare the costs of different brokerage firms and consider all of the fees that may be involved in trading.</p>",
+          "<p>In general, investors should aim to minimize their trade commissions as much as possible, as this can help to reduce the overall cost of trading and increase the potential for profits. However, it's also important to consider other factors, such as the quality of the brokerage firm's trading platform and the level of customer service provided.</p>"
+       ],
+       "tags":[
+          "App",
+          "Branding",
+          "Development",
+          "Design"
+       ]
     }
-
-]
+ ]

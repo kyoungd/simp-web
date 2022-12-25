@@ -56,7 +56,7 @@ const HomeSkillWithVideo = () => {
                             <div className="skill-video">
                                 <img className="image" src={process.env.PUBLIC_URL + "/images/video/skill-video.jpg"} alt="video popup" />
                                 <button className="icon" onClick={()=> setOpen(true)}><i className="fas fa-play"></i></button>
-                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="v4uJvQINGmk" onClose={() => setOpen(false)}/>
+                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="oDusrLBYptU" onClose={() => setOpen(false)}/>
                             </div>
 
                             <div className="shape shape-1 scene">

@@ -37,7 +37,7 @@ const BlogDetailsContainer = ({data}) => {
                                 </div>
                             </div>
 
-                            <div className="blog-nav-links">
+                            {/* <div className="blog-nav-links">
                                 <h4 className="title">Related Posts </h4>
                                 <div className="nav-list">
                                     <div className="nav-item prev">
@@ -62,7 +62,6 @@ const BlogDetailsContainer = ({data}) => {
                                 </div>
                             </div>
 
-
                             <div className="comment-form-wrap">
                                 <div className="comment-respond">
                                     <h3 className="title">Leave a Reply</h3>
@@ -72,7 +71,7 @@ const BlogDetailsContainer = ({data}) => {
                                         title={data.title}
                                     />
                                 </div>
-                            </div>
+                            </div> */}
 
                         </div>
                     </div>

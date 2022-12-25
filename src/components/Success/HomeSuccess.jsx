@@ -46,12 +46,12 @@ const HomeSuccess = () => {
                         <div className="success-content mt-lg-0 mt-md-50 mt-sm-50 mt-40">
                             <SectionTitleTwo 
                                 subTitle="Your success is our success"
-                                title="Trade with confidence instead of struggling with your uncertainties"
+                                title="Trade with discipline, focus and confidence"
                             />
 
                             <div className="progress-bar--one">
                                 <div className="progress-charts">
-                                    <h6 className="heading ">Trading Partner</h6>
+                                    <h6 className="heading ">Quality Trades</h6>
                                     <div className="single-progress">
                                         <ProgressBar data-aos="fade-right" data-aos-delay="100" data-aos-duration="450" className="gradient-1" now="81" label={<span>91%</span>} />
                                     </div>
