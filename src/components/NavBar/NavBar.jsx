@@ -4,11 +4,12 @@ import { useUserState } from '../../components/UserContext';
 
 const NavBar = () => {
     const { isAuthenticated } = useUserState();
+    const homeUrl = process.env.PUBLIC_URL + "/" + (isAuthenticated ? "dashboard" : "");
     return (
         <nav className="site-main-menu">
             <ul>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/"}><span className="menu-text">Homepage</span></NavLink>
+                    <NavLink to={homeUrl}><span className="menu-text">Homepage</span></NavLink>
                 </li>
                 <li>
                     <NavLink to={process.env.PUBLIC_URL + "/about"}><span className="menu-text">About Us</span></NavLink>

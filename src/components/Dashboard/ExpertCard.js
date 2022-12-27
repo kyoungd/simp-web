@@ -41,7 +41,7 @@ export default function ExpertCard({ product }) {
             alt={name}
             height="240"
             image={cover}
-            onClick={() => setOpen(true)}
+            // onClick={() => setOpen(true)}
           />
         </MotionHover>
         <CardContent>
@@ -57,9 +57,9 @@ export default function ExpertCard({ product }) {
                 {learnMoreText}
               </Typography>
             </Link>
-            <IconButton aria-label="video" onClick={() => setOpen(true)}>
+            {/* <IconButton aria-label="video" onClick={() => setOpen(true)}>
               <YouTubeIcon />
-            </IconButton>
+            </IconButton> */}
           </CardActions>
         </CardContent>
       </Card>
