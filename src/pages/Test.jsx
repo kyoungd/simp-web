@@ -6,7 +6,7 @@ import Footer from '../container/Footer/Footer';
 import ScrollToTop from '../components/ScrollToTop.jsx';
 import NewsTable from '../components/Table/NewsTable';
 import data from '../components/Table/news.json';
-
+import RealtimeBoxTwo from '../components/Realtime/RealtimeBoxTwo.jsx';
 
 const Service = () => {
     const classOption = "section section-padding-t90 section-padding-bottom";
@@ -24,7 +24,8 @@ const Service = () => {
                 `section section-padding-t90 section-padding-bottom ${classOption}`
             }>
                 <div className="container">
-                <NewsTable result={ {data : data} } />
+                    <RealtimeBoxTwo />
+                    {/* <NewsTable result={ {data : data} } /> */}
                 </div>
             </div>
             <Footer />

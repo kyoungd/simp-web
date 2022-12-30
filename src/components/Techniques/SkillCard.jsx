@@ -92,7 +92,9 @@ export default function SkillCard({ title, subtitle, summary, description, image
         </CardContent>
         <CardActions disableSpacing>
           <IconButton aria-label="video" onClick={() => setOpen(true)}>
-            <YouTubeIcon />
+            <Typography variant="subtitle2" noWrap>
+              <YouTubeIcon /> Watch Video
+            </Typography>
           </IconButton>
           <ExpandMore
             expand={expanded}

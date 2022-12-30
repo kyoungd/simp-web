@@ -1,0 +1,9 @@
+[
+    {"datatype": "VSA", "symbol": "BCAN", "timeframe": "5Min", "vsa": 4, "cs": 0, "price": 15.0, "pattern": "Pullback", "sentiment": 0.284024, "code": "PBK-001"},
+    {"datatype": "VSA", "symbol": "FOXO", "timeframe": "15Min", "vsa": 4, "cs": 0, "price": 5.6, "pattern": "Pullback", "sentiment": 0.842013, "code": "PBK-001"},
+    {"datatype": "VSA", "symbol": "NEXT", "timeframe": "2Min", "vsa": 0, "cs": 4, "price": 6.53, "pattern": "ABCD", "sentiment": -0.242001, "code": "ABC-001"},
+    {"datatype": "VSA", "symbol": "ARLP", "timeframe": "15Min", "vsa": 4, "cs": 0, "price": 23.88, "pattern": "ABCD", "sentiment": -0.424200, "code": "ABC-001"},
+    {"datatype": "VSA", "symbol": "IBM", "timeframe": "15Min", "vsa": 4, "cs": 0, "price": 15.09, "pattern": "Pullback", "sentiment": 0.240202, "code": "CLX-001"},
+    {"datatype": "VSA", "symbol": "BCAN", "timeframe": "15Min", "vsa": 4, "cs": 0, "price": 15.09, "pattern": "Pullback", "sentiment": 0.240202, "code": "PBK-001"},
+    {"datatype": "VSA", "symbol": "MSFT", "timeframe": "15Min", "vsa": 4, "cs": 0, "price": 15.09, "pattern": "Pullback", "sentiment": 0.240202, "code": "CLX-001"}
+]

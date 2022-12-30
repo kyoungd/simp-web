@@ -1,32 +1,50 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import TableBasic from './TableBasic';
+import _ from 'lodash';
+import RealtimeBoxTwo from '../Realtime/RealtimeBoxTwo';
+
+function transformData (data, codes) {
+  const result = [];
+  for (const item of data) {
+      const value = JSON.parse(item.value);
+      const desc = codes.find((one) => one.code === value.code);
+      result.push({...value, time: item.time, id: item.id, desc: desc && desc.summary ? desc.summary : 'UNKNOWN' });
+  }
+  return result;
+}
+
+function filterBasedOnSettings(data, strategies) {
+  const filtered = data.filter((item) => {
+      const codes = item.code.split(',');
+      return _.intersection(codes, strategies).length > 0;
+  });
+  return filtered;
+}
 
 RealtimeMessages.propTypes = {
   socket: PropTypes.object.isRequired,
-  initMessages: PropTypes.array.isRequired
+  initMessages: PropTypes.array.isRequired,
+  strategies: PropTypes.array.isRequired,
+  codes: PropTypes.array.isRequired
 };
 
-export default function RealtimeMessages({ socket, initMessages }) {
-  const [messages, setMessages] = useState({});
+export default function RealtimeMessages({ socket, initMessages, strategies, codes }) {
+  const [messages, setMessages] = useState([]);
 
   useEffect(() => {
     // eslint-disable-next-line no-restricted-syntax
-    for (const message of initMessages)
-      setMessages((prev) => ({
-        ...prev,
-        [message.id]: message
-      }));
-  }, [initMessages]);
+    const transformed = transformData(initMessages, codes);
+    const filtered = filterBasedOnSettings(transformed, strategies);
+    if (!filtered || (filtered.length <= 0)) return;
+    setMessages((prev) => [...prev, ...filtered]);
+  }, [initMessages, codes]);
 
   useEffect(() => {
     const messageListener = (message) => {
-      setMessages((prevMessages) => {
-        const newMessages = { ...prevMessages };
-        console.log(message);
-        newMessages[message.id] = message;
-        return newMessages;
-      });
+      const transformed = transformData([message], codes);
+      const filtered = filterBasedOnSettings(transformed, strategies);
+      if (!filtered || (filtered.length <= 0)) return;
+      setMessages((prev) => [...prev, ...filtered]);
     };
 
     // const deleteMessageListener = (messageID) => {
@@ -45,35 +63,9 @@ export default function RealtimeMessages({ socket, initMessages }) {
       socket.off('message', messageListener);
       // socket.off('deleteMessage', deleteMessageListener);
     };
-  }, [socket]);
+  }, [socket, codes]);
 
-  const columns = [
-    { key: 'symbol', name: 'Symbol' },
-    { key: 'price', name: 'Price' },
-    { key: 'pattern', name: 'Pattern' },
-    { key: 'timeframe', name: 'Timeframe' },
-    { key: 'time', name: 'Time' }
-  ];
-  const rows = [...Object.values(messages)]
-    .sort((a, b) => b.sortid - a.sortid)
-    .map((row) => {
-        try {
-        const message = JSON.parse(row.value);
-        return { 
-            id : message.id,
-            symbol: message.symbol,
-            price: message.price.toLocaleString('en-US', {
-                style: 'currency',
-                currency: 'USD'
-            }),
-            pattern: message.pattern,
-            timeframe: message.timeframe,
-            time: row.time
-        };
-        } catch (e) {
-        console.log(e);
-        return null;
-        }
-    });
-  <TableBasic columns={columns} rows={rows} />;
+  if (messages.length > 0)
+    return (<RealtimeBoxTwo transformed={messages} />);
+  return (null);
 }

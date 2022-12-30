@@ -8,10 +8,12 @@ RealtimeTable.propTypes = {
   jwt: PropTypes.string.isRequired,
   room: PropTypes.string.isRequired,
   username: PropTypes.string.isRequired,
-  initdata: PropTypes.arrayOf(PropTypes.object).isRequired
+  initdata: PropTypes.arrayOf(PropTypes.object).isRequired,
+  strategies: PropTypes.object.isRequired,
+  global: PropTypes.object.isRequired
 };
 
-function RealtimeTable({ jwt, username, room, initdata }) {
+function RealtimeTable({ jwt, username, room, initdata, strategies, global }) {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
@@ -32,7 +34,12 @@ function RealtimeTable({ jwt, username, room, initdata }) {
     }
   }, [jwt, username, room]);
 
-  if (socket) return <RealtimeMessage socket={socket} initMessages={initdata} />;
+  if (socket) return <RealtimeMessage 
+                        socket={socket} 
+                        initMessages={initdata} 
+                        strategies={strategies.data.attributes.strategy} 
+                        codes={global.data[0].attributes.techCodes} 
+                      />;
   return <div>Not connected</div>;
 }
 

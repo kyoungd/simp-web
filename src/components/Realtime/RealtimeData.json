@@ -1,0 +1,38 @@
+[
+    {
+       "id":208710,
+       "sortid":5,
+       "username":"-",
+       "value":"{\"datatype\":\"VSA\",\"symbol\":\"KALA\",\"timeframe\":\"15Min\",\"price\":14.4001,\"code\":\"PBK-001\"}",
+       "time":"10:45:36 AM"
+    },
+    {
+       "id":208711,
+       "sortid":4,
+       "username":"-",
+       "value":"{\"datatype\":\"VSA\",\"symbol\":\"BYND\",\"timeframe\":\"15Min\",\"price\":11.45,\"code\":\"PBK-001\"}",
+       "time":"10:45:36 AM"
+    },
+    {
+       "id":208721,
+       "sortid":1,
+       "username":"-",
+       "value":"{\"datatype\":\"VSA\",\"symbol\":\"JNUG\",\"timeframe\":\"15Min\",\"price\":36.67,\"code\":\"ABC-001\"}",
+       "time":"11:00:49 AM"
+    },
+    {
+       "id":208722,
+       "sortid":2,
+       "username":"-",
+       "value":"{\"datatype\":\"VSA\",\"symbol\":\"KALA\",\"timeframe\":\"5Min\",\"price\":12.65,\"code\":\"ABC-001\"}",
+       "time":"11:05:40 AM"
+    },
+    {
+       "id":208720,
+       "sortid":3,
+       "username":"-",
+       "value":"{\"datatype\":\"VSA\",\"symbol\":\"VRNA\",\"timeframe\":\"15Min\",\"price\":22.26,\"code\":\"CLX-001\"}",
+       "time":"11:00:04 AM"
+    }
+ ]
+ 

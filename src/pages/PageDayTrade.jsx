@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {useQuery} from 'react-query';
+import {useQueries} from 'react-query';
 
 // components
 import SEO from '../components/SEO';
@@ -12,7 +12,8 @@ import ScrollToTop from '../components/ScrollToTop.jsx';
 import RealtimeTable from '../components/Table/RealtimeTable';
 import ThreeDotWave from '../components/Work/ThreeDotWave';
 import fetchRealtimeData from '../components/api/fetchRealTimeData';
-
+import { getOne } from '../components/api/dataFetch';
+// import RealtimeData from '../components/Realtime/RealtimeData.json';
 // ----------------------------------------------------------------------
 
 PageDayTrade.propTypes = {
@@ -22,15 +23,26 @@ PageDayTrade.propTypes = {
     jwt: PropTypes.string.isRequired
 };
 
-
 PageDayTrade.defaultProps = {
     classOption: "section section-padding-t90 section-padding-bottom"
 };
 
 export default function PageDayTrade({room, username, jwt, classOption}) {
 
-    const {isLoading, isSuccess, error, isError, data} = useQuery('realtime', () => fetchRealtimeData(jwt));
+    const getAccountUrl = `${process.env.REACT_APP_ACCOUNT_SERVICE}`;
+    const getGlobalUrl = `${process.env.REACT_APP_GLOBAL_SERVICE}`;
     // real-time data need to be updated.
+    const [fetchGlobal, fetchAccount, fetchRealtime] = useQueries([
+        { queryKey: ['global', 1], queryFn: () => getOne(getGlobalUrl, jwt) },
+        { queryKey: ['account', 2], queryFn: () => getOne(getAccountUrl, jwt) },
+        { queryKey: ['realtime', 3], queryFn: () => fetchRealtimeData(jwt) },
+    ]);
+
+    if (fetchAccount.isSuccess && fetchRealtime.isSuccess && fetchGlobal.isSuccess) {
+        console.log(fetchAccount.data);
+        console.log(fetchRealtime.data);
+        console.log(fetchGlobal.data);
+    }
 
     return (
         <React.Fragment>
@@ -39,13 +51,19 @@ export default function PageDayTrade({room, username, jwt, classOption}) {
             <Breadcrumb image="images/bg/breadcrumb-bg-three.jpg" title="Best technology and research for trading" content="Home" contentTwo="Main"/>
             <div className={`section section-padding-t90 section-padding-bottom ${classOption}`}>
                 <div className="container">
-                    { isLoading && <ThreeDotWave /> }
-                    { isError && <div>Error: { error.message }</div> }
-                    { isSuccess && (
+                    { (fetchAccount.isLoading || fetchRealtime.isLoading || fetchGlobal.isLoading) && <ThreeDotWave /> }
+                    { fetchAccount.isError && <div>Error: { fetchAccount.error.message }</div> }
+                    { fetchRealtime.isError && <div>Error: { fetchRealtime.error.message }</div> }
+                    { fetchGlobal.isError && <div>Error: { fetchGlobal.error.message }</div> }
+                    { fetchAccount.isSuccess && fetchRealtime.isSuccess && fetchGlobal.isSuccess && (
                         <RealtimeTable room={room}
+                            strategies={fetchAccount.data}
                             username={username}
                             jwt={jwt}
-                            initdata={data}/>
+                            initdata={fetchRealtime.data} 
+                            // initdata={RealtimeData}
+                            global={fetchGlobal.data}
+                        />
                     )} 
                 </div>
             </div>
