@@ -7,7 +7,7 @@ function transformData (data, codes) {
   const result = [];
   for (const item of data) {
       const value = JSON.parse(item.value);
-      const desc = codes.find((one) => one.code === value.code);
+      const desc = codes.find((one) => _.find(value.codes, one.code) !== null);
       result.push({...value, time: item.time, id: item.id, desc: desc && desc.summary ? desc.summary : 'UNKNOWN' });
   }
   return result;
@@ -15,7 +15,8 @@ function transformData (data, codes) {
 
 function filterBasedOnSettings(data, strategies) {
   const filtered = data.filter((item) => {
-      const codes = item.code.split(',');
+      const codes = item.codes;
+      if (!codes || (codes.length <= 0)) return false;
       return _.intersection(codes, strategies).length > 0;
   });
   return filtered;
@@ -28,9 +29,27 @@ RealtimeMessages.propTypes = {
   codes: PropTypes.array.isRequired
 };
 
+function removeOldMessages(messages, setMessages) {
+  const now = new Date();
+  const filtered = messages.filter((item) => {
+      const date = new Date(item.time);
+      const diff = Math.abs(now - date) / 1000 / 60;    // minutes
+      return diff < 20;
+  });
+  if (filtered.length !== messages.length) setMessages(filtered);
+}
+
 export default function RealtimeMessages({ socket, initMessages, strategies, codes }) {
   const [messages, setMessages] = useState([]);
 
+  useEffect(() => {
+    const interval = setInterval(() => removeOldMessages(messages, setMessages), 30000);
+    return () => clearInterval(interval);
+  }, []);
+
+  // FIX LATER
+  // The data is saved before sentiment and code is inserted.  Need to fix that.
+  //
   useEffect(() => {
     // eslint-disable-next-line no-restricted-syntax
     const transformed = transformData(initMessages, codes);

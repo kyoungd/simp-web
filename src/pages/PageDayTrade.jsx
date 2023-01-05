@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {useQueries} from 'react-query';
+import {useQueries, QueryClient} from 'react-query';
 
 // components
 import SEO from '../components/SEO';
@@ -28,20 +28,22 @@ PageDayTrade.defaultProps = {
 };
 
 export default function PageDayTrade({room, username, jwt, classOption}) {
-
+    const queryClient = new QueryClient();
     const getAccountUrl = `${process.env.REACT_APP_ACCOUNT_SERVICE}`;
     const getGlobalUrl = `${process.env.REACT_APP_GLOBAL_SERVICE}`;
     // real-time data need to be updated.
     const [fetchGlobal, fetchAccount, fetchRealtime] = useQueries([
-        { queryKey: ['global', 1], queryFn: () => getOne(getGlobalUrl, jwt) },
-        { queryKey: ['account', 2], queryFn: () => getOne(getAccountUrl, jwt) },
-        { queryKey: ['realtime', 3], queryFn: () => fetchRealtimeData(jwt) },
+        { queryKey: ['global'], queryFn: () => getOne(getGlobalUrl, jwt) },
+        { queryKey: ['account'], queryFn: () => getOne(getAccountUrl, jwt) },
+        { queryKey: ['realtime'], queryFn: () => fetchRealtimeData(jwt) },
     ]);
 
     if (fetchAccount.isSuccess && fetchRealtime.isSuccess && fetchGlobal.isSuccess) {
         console.log(fetchAccount.data);
         console.log(fetchRealtime.data);
         console.log(fetchGlobal.data);
+        queryClient.invalidateQueries('realtime');
+
     }
 
     return (

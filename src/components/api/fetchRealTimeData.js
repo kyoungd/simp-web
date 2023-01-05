@@ -19,6 +19,7 @@ async function fetchRealtimeData(jwt) {
       symbol: data.attributes.symbol,
       timeframe: data.attributes.timeframe,
       price: data.attributes.data.price,
+      codes: data.attributes.data.codes,
       pattern: _.join(data.attributes.data.patterns, ',')
     });
     transformed.push({
@@ -26,7 +27,7 @@ async function fetchRealtimeData(jwt) {
       sortid: counter,
       username: '-',
       value,
-      time: new Date(data.attributes.createdAt).toLocaleTimeString()
+      time: new Date(data.attributes.createdAt).toLocaleString()      // toLocaleTimeString()
     });
   }
   // this must load on every refresh as it updates in real-time

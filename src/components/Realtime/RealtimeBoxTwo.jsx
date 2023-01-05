@@ -16,7 +16,7 @@ const cleanData = (realtimeData) => {
         let sentiment = 0;
         for (const row of rows) {
             timeframes.push(row.timeframe);
-            descriptions = _.merge(descriptions, row.desc);
+            descriptions.push(row.desc);
             price = row.price;
             sentiment = row.sentiment;
         }
