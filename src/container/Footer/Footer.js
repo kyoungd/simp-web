@@ -14,18 +14,21 @@ const LogoStyle = styled.p`
     margin-bottom: 0; 
 `;
 
+//
+// <Logo 
+//     image={`${process.env.PUBLIC_URL}/images/logo/footer-logo.png`}
+// />
+//
+
 const Footer = () => {
     return (
         <div className="footer-section section footer-bg-color">
             <div className="container">
-                <div className="row mb-lg-14 mb-md-10 mb-6">
+                {/* <div className="row mb-lg-14 mb-md-10 mb-6">
                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 col-12 mb-6">
                         <div className="footer-widget">
                             <div className="footer-logo">
                                 <LogoStyle>TRADESIMP</LogoStyle>
-                                {/* <Logo 
-                                    image={`${process.env.PUBLIC_URL}/images/logo/footer-logo.png`}
-                                /> */}
                             </div>
                             <div className="footer-widget-content">
                                 <div className="content">
@@ -48,7 +51,7 @@ const Footer = () => {
                             </div>
                         ); 
                     })}
-                </div>
+                </div> */}
                 <div className="row">
                     <div className="col">
                         <p className="copyright">&copy; {new Date().getFullYear()} <strong>TradeSimp</strong></p>

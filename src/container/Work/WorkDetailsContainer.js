@@ -17,7 +17,7 @@ const WorkDetailsContainer = ({ data }) => {
                     <div className="col-lg-4 col-md-6 col-12">
                         <div className="work-left work-details" data-aos="fade-up">
                             <div className="portfolio-main-info">
-                                <h2 className="title">About the <br/> project</h2>
+                                <h2 className="title">{data.title}</h2>
                                 <div className="work-details-list mt-12">
 
                                     <div className="details-list">
@@ -52,7 +52,7 @@ const WorkDetailsContainer = ({ data }) => {
                         <div className="work-left work-details mt-6">
                             <div className="work-main-info">
                                 <div className="work-content">
-                                    <h6 className="title" data-aos="fade-up">ABOUT THE PROJECT</h6>
+                                    <h6 className="title" data-aos="fade-up">{data.title}</h6>
 
                                     <div className="desc mt-8">
                                         {data.body.map((value, i) => {

@@ -3,18 +3,18 @@
         "id": 1,
         "homeImage": "./images/portfolio/portfolio-1.jpg",
         "image": "images/project/project-1.jpg",
-        "title": "Do not trade alone.  Trading in isloation leads to failure.",
-        "date": "28 Sep 2021",
-        "client": "HighGrove Partners",
-        "categories": ["app", "development"],
+        "title": "Do not trade alone.",
+        "date": "28 Dec 2022",
+        "client": "TradeSimp",
+        "categories": ["expert", "trading"],
         "awards": ["2021 Digital World Awards 2020 Finale Awards"],
-        "excerpt": "The problems of trading alone is many.  They can be overwhelming and is a threat to your trading success.",
+        "excerpt": "Here are the challenges of trading alone.  It is not for the faint of heart.",
         "body": [
-            "<p>Guidelines from a more experienced colleague – You may leave much behind during the switch from office to working from home. The apparent change is having no coworkers and mentors to lean on for advice and education.</p>",
-            "<p>Support and assistance during hard times – This ranges from a losing sequence to emotional issues, an abundance or lack of confidence all of the potential personal problems that a person faces in life. Whilst not apart of an organization, the burden to resolve problems shifts almost entirely onto you.</p>",
-            "<p>Critical criticism – Missing out on learning from another viewpoint about your performance. It will become difficult to recover from tough situations and challenge your analysis. Unable to be as decisive about which may be the right move or path to take.</p>",
-            "<p>More efficient learning process – In an organization, it’s possible to split research amongst colleagues. A pool of people brings a variety of opinions to discuss, more angles for resolutions, and it cuts the workload of backtesting, researching, and concluding the process.</p>",
-            "<p>Social structure or network – Humans generally are meant to work or remain in a tribe of a society. It’s in our nature to share, be challenged, and observe others around us. Home office trading cuts off this social aspect and leaves many traders needing to fulfill the void elsewhere.</p>"
+            "<p>One major problem is the lack of access to the same resources and information as larger trading firms. Individual traders may have a harder time obtaining timely and accurate data on market trends, financial news, and other factors that can impact stock prices. This can make it difficult for them to make informed trading decisions.</p>",
+            "<p>Another issue is the lack of support and guidance. Trading can be a complex and risky endeavor, and individual traders may not have the benefit of experienced mentors or colleagues to turn to for advice. This can increase the chances of making costly mistakes, especially for inexperienced traders.</p>",
+            "<p>Individual traders also have to manage their own risk and handle the emotional and psychological aspects of trading on their own. It can be difficult to stay disciplined and avoid making impulsive decisions, especially during times of market volatility.</p>",
+            "<p>Finally, individual traders may have a harder time executing trades efficiently due to their smaller trade sizes. This can lead to higher trading costs and reduced profits.</p>",
+            "<p>Overall, while individual stock trading can be rewarding, it is important for traders to be aware of the challenges they may face and to be prepared to overcome them.</p>"
             ],
         "btn": {
             "text": "Go to link",
@@ -23,7 +23,7 @@
         "largeImage": "images/project/work-details-1.jpg",
         "subContent": {
             "title": "Trading with experts",
-            "text": "Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences. And conversations with marketers and business owners in the U.S., U.K., Asia, Australia, and New Zealand, I've learned a lot about how those small differences are being observed across the world."
+            "text": "Individual stock traders, who trade alone without the support, face a number of challenges."
         },
         "gallery": {
             "imageOne": "images/project/work-details-2.jpg",
@@ -35,12 +35,12 @@
         "id": 2,
         "homeImage": "./images/portfolio/portfolio-2.jpg",
         "image": "images/project/project-2.jpg",
-        "title": "An advanced AI to find trades before they happen",
-        "date": "28 Sep 2007",
-        "client": "HighGrove Partners",
-        "categories": ["marketing", "software"],
+        "title": "AI to find trades",
+        "date": "28 Nov 2022",
+        "client": "TradeSimp",
+        "categories": ["AI", "trading"],
         "awards": ["2015 Digital World Awards 2016 Finale Awards"],
-        "excerpt": "Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.",
+        "excerpt": "AI cannot trade for you, but it can help you find trades before it happens.",
         "body": [
             "Data-Based Trading Decisions - AI trading bots are able to analyse millions of potential scenarios in a split second, simplifying data analysis. A human could never analyse data as quickly as an AI trade bot, meaning that trading decisions can be based upon a far greater quantity of historical data than ever before.",
             "Less work - Trading isn’t an 9-5 venture – it’s always on the go and forever changing. However, it’s impossible for any trader to be on the ball 24 hour per day, 7 days per week. There is only so much time that anyone can spend trading, even for the most devoted of traders.",
@@ -53,8 +53,8 @@
         },
         "largeImage": "images/project/work-details-1.jpg",
         "subContent": {
-            "title": "Digital Marketing.",
-            "text": "Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences. And conversations with marketers and business owners in the U.S., U.K., Asia, Australia, and New Zealand, I've learned a lot about how those small differences are being observed across the world."
+            "title": "AI helper",
+            "text": "AI can help you trade more efficiently and effectively."
         },
         "gallery": {
             "imageOne": "images/project/work-details-2.jpg",
@@ -67,11 +67,11 @@
         "homeImage": "./images/portfolio/portfolio-3.jpg",
         "image": "images/project/project-3.jpg",
         "title": "Common trading mistakes",
-        "date": "28 Sep 2007",
-        "client": "HighGrove Partners",
-        "categories": ["app", "software", "marketing"],
+        "date": "21 Nov 2022",
+        "client": "TradeSimp",
+        "categories": ["advice", "trading"],
         "awards": ["2015 Digital World Awards 2016 Finale Awards"],
-        "excerpt": "Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.",
+        "excerpt": "Here are list of common mistakes that all traders make, sometime in their career.",
         "body": [
             "Lack of patience. The stock (Forex) market is a device for transferring money from the impatient to the patient – Warren Buffett.  Wait for the right opportunity.  Rushing to make money             is the best way to lose them.  Be patient.",
             "Over-Trading - This is the number 1 Forex trading account killer. Whilst this is subjective and different to each trader, what it boils down to is pretty simple. Over-trading is when you are taking trades that do not fit your trading plan and rules simply because you are trying to make more money.",
@@ -86,8 +86,8 @@
         },
         "largeImage": "images/project/work-details-1.jpg",
         "subContent": {
-            "title": "Digital Marketing.",
-            "text": "Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences. And conversations with marketers and business owners in the U.S., U.K., Asia, Australia, and New Zealand, I've learned a lot about how those small differences are being observed across the world."
+            "title": "Common Mistakes.",
+            "text": "All stock traders make these mistakes sometime in their career.  Learn and grow."
         },
         "gallery": {
             "imageOne": "images/project/work-details-2.jpg",
@@ -99,10 +99,10 @@
         "id": 4,
         "homeImage": "./images/portfolio/portfolio-4.jpg",
         "image": "images/project/project-4.jpg",
-        "title": "Best trading strategy for you.",
-        "date": "28 Sep 2007",
+        "title": "Best Trading Strategy",
+        "date": "19 Nov 2022",
         "client": "HighGrove Partners",
-        "categories": ["development", "ux design", "marketing"],
+        "categories": ["advice", "trading"],
         "awards": ["2015 Digital World Awards 2016 Finale Awards"],
         "excerpt": "Selecting the right trading strategy may be one of the most important steps you’ll take.",
         "body": [
@@ -118,8 +118,8 @@
         },
         "largeImage": "images/project/work-details-1.jpg",
         "subContent": {
-            "title": "Digital Marketing.",
-            "text": "Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences. And conversations with marketers and business owners in the U.S., U.K., Asia, Australia, and New Zealand, I've learned a lot about how those small differences are being observed across the world."
+            "title": "Best Trading Strategy",
+            "text": "There are trading strategies that works better than others.  Here, we spent some time exploring which ones are the best."
         },
         "gallery": {
             "imageOne": "images/project/work-details-2.jpg",
@@ -131,21 +131,26 @@
         "id": 5,
         "homeImage": "./images/portfolio/portfolio-5.jpg",
         "image": "images/project/project-5.jpg",
-        "title": "Branding and photography. Mother Nature: Summer",
-        "date": "28 Sep 2007",
-        "client": "HighGrove Partners",
-        "categories": ["app", "ux design"],
+        "title": "Market Seasonlity",
+        "date": "28 Sep 2022",
+        "client": "TradeSimp",
+        "categories": ["trend", "trading"],
         "awards": ["2015 Digital World Awards 2016 Finale Awards"],
         "excerpt": "Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.",
-        "body": ["<p>Digital marketing encompasses all marketing efforts that use an electronic device or the internet. Businesses leverage digital channels such as search engines, social media, email, and their websites to connect with current and prospective customers.</p>", "<p>It is. In fact, “constant” internet usage among adults increased by 5% in just the last three years, according to Pew Research. And although we say it a lot, the way people shop and buy really has changed along with it — meaning offline marketing isn’t as effective as it used to be.</p>", "<p>Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. (Source: blog.hubspot.com)</p>"],
+        "body": [
+            "<p>The stock market can exhibit certain patterns of performance over the course of the year, which is known as seasonality. This means that certain sectors or industries may perform better at certain times of the year due to a variety of factors such as changes in consumer demand, weather, or regulatory changes.</p>",
+            "<p>One example of seasonality in the stock market is the <strong>Santa Claus Rally,</strong> which refers to the tendency for stock prices to rise in the last week of December and the first two weeks of January. This is thought to be due to a combination of factors such as year-end tax planning and an influx of holiday shopping-related revenue.</p>",
+            "<p>Another example is the <strong>Summer Slump,</strong> which refers to the historically lower levels of stock market activity and performance during the summer months. This is often attributed to the impact of vacation season on trading volumes and the potential for market uncertainty due to a lack of major news events.</p>",
+            "<p>It's important to note that seasonality is not a guarantee of future performance and should not be the sole basis for investment decisions. However, recognizing and understanding the potential effects of seasonality can be useful for investors as they develop their trading strategies.</p>"
+        ],
         "btn": {
             "text": "Go to link",
             "link": "/"
         },
         "largeImage": "images/project/work-details-1.jpg",
         "subContent": {
-            "title": "Digital Marketing.",
-            "text": "Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences. And conversations with marketers and business owners in the U.S., U.K., Asia, Australia, and New Zealand, I've learned a lot about how those small differences are being observed across the world."
+            "title": "Market Seasonality",
+            "text": "Market seasonality refers to the tendency for certain sectors or industries to perform better at certain times of the year due to a variety of factors such as changes in consumer demand, weather, or regulatory changes. Understanding and recognizing the potential effects of seasonality can be useful for investors as they develop their trading strategies, though it should not be the sole basis for investment decisions."
         },
         "gallery": {
             "imageOne": "images/project/work-details-2.jpg",
@@ -157,21 +162,28 @@
         "id": 6,
         "homeImage": "./images/portfolio/portfolio-6.jpg",
         "image": "images/project/project-6.jpg",
-        "title": "Modern and unique design for a furniture application",
-        "date": "28 Sep 2007",
+        "title": "Trade With Trend",
+        "date": "22 Sep 2022",
         "client": "HighGrove Partners",
-        "categories": ["app", "ux design", "software"],
+        "categories": ["trend", "trading"],
         "awards": ["2015 Digital World Awards 2016 Finale Awards"],
-        "excerpt": "Quickly analyzing the digital business landscape, we create effective action plans and design optimal strategies.",
-        "body": ["<p>Digital marketing encompasses all marketing efforts that use an electronic device or the internet. Businesses leverage digital channels such as search engines, social media, email, and their websites to connect with current and prospective customers.</p>", "<p>It is. In fact, “constant” internet usage among adults increased by 5% in just the last three years, according to Pew Research. And although we say it a lot, the way people shop and buy really has changed along with it — meaning offline marketing isn’t as effective as it used to be.</p>", "<p>Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. (Source: blog.hubspot.com)</p>"],
+        "excerpt": "Trend trading is a strategy that involves identifying the overall direction that the market is moving in and then positioning oneself to profit from that trend.",
+        "body": [
+            "<p>Trading with the market trend, also known as trend trading, is a strategy that involves identifying the overall direction that the market is moving in and then positioning oneself to profit from that trend. This can be done through the use of various financial instruments, such as stocks, futures, options, and exchange-traded funds (ETFs).</p>",
+            "<p>One of the key benefits of trend trading is that it allows traders to take advantage of the natural momentum that exists in the market. By following the trend, traders can potentially ride the wave of a trend for a longer period of time, increasing the chances of profiting from their trades.</p>",
+            "<p>There are several approaches that traders can take when it comes to trend trading. One approach is to use technical analysis to identify trend changes. This involves looking at chart patterns and indicators, such as moving averages and relative strength index (RSI), to identify buying or selling opportunities.</p>",
+            "<p>Another approach is to use fundamental analysis to identify trends. This involves looking at the underlying factors that can drive the market, such as economic indicators, company earnings, and political events.</p>",
+            "<p>Regardless of the approach that is taken, it is important for traders to have a solid risk management strategy in place when trend trading. This can involve setting stop-loss orders to minimize potential losses and using position sizing to control the amount of risk that is taken on.</p>",
+            "<p>In conclusion, trend trading is a strategy that involves identifying and following the overall direction of the market in order to profit from its momentum. By using technical or fundamental analysis, and implementing risk management techniques, traders can potentially increase their chances of success with this approach.</p>"
+        ],
         "btn": {
             "text": "Go to link",
             "link": "/"
         },
         "largeImage": "images/project/work-details-1.jpg",
         "subContent": {
-            "title": "Digital Marketing.",
-            "text": "Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet. A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences. And conversations with marketers and business owners in the U.S., U.K., Asia, Australia, and New Zealand, I've learned a lot about how those small differences are being observed across the world."
+            "title": "Trade With Trend",
+            "text": "Trend trading is a strategy that involves identifying the overall direction that the market is moving in and then positioning oneself to profit from that trend. Trend trading allows traders to take advantage of the natural momentum that exists in the market and potentially ride the wave of a trend for a longer period of time."
         },
         "gallery": {
             "imageOne": "images/project/work-details-2.jpg",
@@ -181,5 +193,3 @@
     }
     
 ]
-
-
