@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "icon": "../images/svg/linea/linea-basic-target.svg",
+        "title": "AI and a mentor",
+        "desc": "By combining the experience and knowledge of a mentor with the data analysis and pattern recognition capabilities of AI, traders can improve their trades.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 2,
+        "icon": "../images/svg/linea/linea-basic-picture-multiple.svg",
+        "title": "Combined knowledge and experience",
+        "desc": "A mentor who is experienced in trading can provide valuable insights, while AI algorithms can identify patterns that may not be easily discernible to the human eye.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 3,
+        "icon": "../images/svg/linea/linea-basic-picture.svg",
+        "title": "Enhanced risk management",
+        "desc": "A mentor can help traders manage risk by providing guidance, while AI algorithms can identify risks and help traders make better decisions.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 4,
+        "icon": "../images/svg/linea/linea-ecommerce-cart-plus.svg",
+        "title": "Improved speed and accuracy",
+        "desc": "AI algorithms can process data and make decisions much faster than humans, allowing traders to react more quickly to changing market conditions.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 5,
+        "icon": "../images/svg/linea/linea-basic-gear.svg",
+        "title": "Customized guidance and support",
+        "desc": "A mentor can tailor their guidance and support to a trader's specific needs and goals, while AI algorithms can be customized to a trader's specific trading strategy.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 6,
+        "icon": "../images/svg/linea/linea-basic-display.svg",
+        "title": "Emotionless decision-making",
+        "desc": "AI algorithms are not influenced by emotions, allowing them to make more objective and rational decisions. A mentor can also provide perspective and guidance to help traders make more logical decisions.",
+        "pageLink": "Learn More",
+        "link": "/"
+    }
+]

@@ -28,6 +28,7 @@ const PageTop10News = lazy(() => import("./pages/PageTop10News"));
 const PageSettings = lazy(() => import("./pages/PageSettings"));
 const PageBilling = lazy(() => import("./pages/PageBilling"));
 const PageSchedule = lazy(() => import("./pages/PageSchedule"));
+const HomeGetStarted = lazy(() => import("./pages/HomeGetStarted"));
 const Test = lazy(() => import("./pages/Test"));
 
 function App() {
@@ -75,6 +76,7 @@ function App() {
                   <Route path={`${process.env.PUBLIC_URL + "/settings"}`} element={<PageSettings jwt={jwt} />} />
                   <Route path={`${process.env.PUBLIC_URL + "/billings"}`} element={<PageBilling jwt={jwt} />} />
                   <Route path={`${process.env.PUBLIC_URL + "/schedule"}`} element={<PageSchedule jwt={jwt} />} />
+                  <Route path={`${process.env.PUBLIC_URL + "/get-started/:id"}`} element={<HomeGetStarted />} />
                   <Route path={`${process.env.PUBLIC_URL + "/test"}`} element={<Test />} />
                 </Routes>
             </Suspense>

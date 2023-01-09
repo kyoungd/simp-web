@@ -16,7 +16,7 @@ const Intro =  ({data}) => {
                             <div className="desc">
                                 <p>{data.desc}</p>
                             </div>
-                            <Link to={process.env.PUBLIC_URL + "/"} className="btn btn-primary btn-hover-secondary">Get Started</Link>
+                            <Link to={process.env.PUBLIC_URL + `/get-started/${data.id}`} className="btn btn-primary btn-hover-secondary">Get Started</Link>
                             <Link to={process.env.PUBLIC_URL + "/"} className="btn btn-outline-white btn-hover-primary"> Learn More </Link>
                         </div>
                     </div>

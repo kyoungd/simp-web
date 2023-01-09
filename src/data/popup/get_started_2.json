@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "icon": "../images/svg/linea/linea-basic-target.svg",
+        "title": "Guidance and direction",
+        "image": "",
+        "summary": "expert help",
+        "desc": "Trading can be a complex and overwhelming endeavor, especially for those who are just starting out. A mentor can provide guidance and direction, helping traders navigate the market and make informed decisions.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 2,
+        "icon": "../images/svg/linea/linea-basic-picture-multiple.svg",
+        "title": "Experience and knowledge",
+        "image": "",
+        "summary": "expert help",
+        "desc": "A mentor who has been trading for a long time can offer valuable insights and advice based on their experience and knowledge of the market. They can help traders avoid common pitfalls and mistakes, and provide strategies for success.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 3,
+        "icon": "../images/svg/linea/linea-basic-picture.svg",
+        "title": "Objectivity",
+        "image": "",
+        "summary": "expert help",
+        "desc": "It can be difficult for traders to remain objective when they are emotionally invested in their trades. A mentor can provide a fresh perspective and help traders make more logical, calculated decisions.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 4,
+        "icon": "../images/svg/linea/linea-ecommerce-cart-plus.svg",
+        "title": "Support and accountability",
+        "image": "",
+        "summary": "expert help",
+        "desc": "Trading can be a lonely and stressful endeavor. A mentor can provide much-needed support and encouragement, and can also hold traders accountable for their actions and decisions.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 5,
+        "icon": "../images/svg/linea/linea-basic-gear.svg",
+        "title": "Networking opportunities",
+        "image": "",
+        "summary": "expert help",
+        "desc": "A mentor can introduce traders to their network of industry professionals and provide access to valuable resources and opportunities.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 6,
+        "icon": "../images/svg/linea/linea-basic-display.svg",
+        "title": "Personalized learning",
+        "image": "",
+        "summary": "expert help",
+        "desc": "A mentor can tailor their teaching and guidance to a trader's specific needs and goals. This can be particularly useful for traders who are looking to specialize in a certain area of the market or who have specific challenges to overcome.",
+        "pageLink": "Learn More",
+        "link": "/"
+    }
+]

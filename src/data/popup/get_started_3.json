@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "icon": "../images/svg/linea/linea-basic-target.svg",
+        "title": "Data analysis",
+        "image": "",
+        "summary": "AI",
+        "desc": "AI algorithms can analyze vast amounts of data in real-time, providing traders with valuable insights and allowing them to make more informed decisions.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 2,
+        "icon": "../images/svg/linea/linea-basic-picture-multiple.svg",
+        "title": "Pattern recognition",
+        "image": "",
+        "summary": "AI",
+        "desc": "AI can identify patterns in data that may not be easily discernible to the human eye, helping traders identify potential trade opportunities.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 3,
+        "icon": "../images/svg/linea/linea-basic-picture.svg",
+        "title": "Risk management",
+        "image": "",
+        "summary": "AI",
+        "desc": "AI can help traders manage risk by identifying potential risks and helping traders make more informed decisions about when to enter or exit a trade.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 4,
+        "icon": "../images/svg/linea/linea-ecommerce-cart-plus.svg",
+        "title": "Speed",
+        "image": "",
+        "summary": "AI",
+        "desc": "AI algorithms can process data and make decisions much faster than humans, allowing traders to react more quickly to changing market conditions.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 5,
+        "icon": "../images/svg/linea/linea-basic-gear.svg",
+        "title": "Accuracy",
+        "image": "",
+        "summary": "AI",
+        "desc": "AI algorithms can be highly accurate, helping traders make more precise trades and potentially improving their overall trading performance.",
+        "pageLink": "Learn More",
+        "link": "/"
+    },
+    {
+        "id": 6,
+        "icon": "../images/svg/linea/linea-basic-display.svg",
+        "title": "Cost-effectiveness",
+        "image": "",
+        "summary": "AI",
+        "desc": "Traders can use AI-powered trading tools and platforms to automate certain aspects of the trading process, potentially reducing the time and cost associated with manual trading.",
+        "pageLink": "Learn More",
+        "link": "/"
+    }
+]

@@ -3,18 +3,21 @@
         "id": "1",
         "title": "Our AI and Trade Experts are your trading edge.",
         "desc": "Our custom AI will find trades before it happens. Trading with our Trade Experts will help you to make more money on each trade.",
-        "backgroundImage": "/images/hero-image/hero-2.jpg"
+        "backgroundImage": "/images/hero-image/hero-2.jpg",
+        "learnMoreInfo": "get_started_1"
     },
     {
         "id": "2",
         "title": "Trade with experts instead of against them.",
         "desc": "Knowing when to enter a trade and exit is hard. Wouldn't it be nice to have a team of experts trading with you?",
-        "backgroundImage": "/images/hero-image/hero-1.jpg"
+        "backgroundImage": "/images/hero-image/hero-1.jpg",
+        "learnMoreInfo": "get_started_2"
     },
     {
         "id": "3",
         "title": "Our custom AI is designed specially for each trader.",
         "desc": "Our custom AI will alert you when a specific setup is forming, so you can focus on the trade. Waiting is exhausting and exhaustion causes mistakes.",
-        "backgroundImage": "/images/hero-image/hero-3.jpg"
+        "backgroundImage": "/images/hero-image/hero-3.jpg",
+        "learnMoreInfo": "get_started_3"
     }
 ]

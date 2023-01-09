@@ -32,7 +32,7 @@ const ExpertList = ({ classOption }) => {
 
                 <SectionTitle
                     headingOption="fz-32"
-                    title="Services to find higher quality trade and reduce costly mistakes."
+                    title="Find high quality trades with less effort."
                     subTitle="Here are expert traders who are ready to help you reach a higher level.
                     Choose a style that fits you best."
                 />
