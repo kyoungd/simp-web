@@ -11,13 +11,16 @@ import ScrollToTop from '../components/ScrollToTop.jsx';
 const HomeGetStarted = () => {
     let {id} = useParams();
     const workId = parseInt(id, 10)
+    const title = (id === 3) ? "Use AI to automate finding quality trades"
+                    : (id === 2) ? "Mentors teach you how to trade with confidence"
+                    : "Advantages of trading with mentors and AI";
     return (
         <React.Fragment>
             <SEO title="TRADESIMP || Get Started" />
             <Header />
             <Breadcrumb 
                 image="images/bg/breadcrumb-bg-three.jpg"
-                title="Get to know TradeSimp"
+                title={title}
                 content="Home"
                 contentTwo="Get Started"
             />
