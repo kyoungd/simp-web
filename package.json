@@ -58,6 +58,9 @@
     "lint": "eslint --ignore-path .gitignore . --ext js --ext jsx",
     "lint:fix": "npm run lint --fix"
   },
+  "engines": {
+    "node": "18.12.1"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
