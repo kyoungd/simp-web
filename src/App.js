@@ -29,6 +29,7 @@ const PageSettings = lazy(() => import("./pages/PageSettings"));
 const PageBilling = lazy(() => import("./pages/PageBilling"));
 const PageSchedule = lazy(() => import("./pages/PageSchedule"));
 const HomeGetStarted = lazy(() => import("./pages/HomeGetStarted"));
+const LoginRedirect = lazy(() => import("./pages/LoginRedirect"));
 const Test = lazy(() => import("./pages/Test"));
 
 function App() {
@@ -77,6 +78,9 @@ function App() {
                   <Route path={`${process.env.PUBLIC_URL + "/billings"}`} element={<PageBilling jwt={jwt} />} />
                   <Route path={`${process.env.PUBLIC_URL + "/schedule"}`} element={<PageSchedule jwt={jwt} />} />
                   <Route path={`${process.env.PUBLIC_URL + "/get-started/:id"}`} element={<HomeGetStarted />} />
+                  <Route path={`${process.env.PUBLIC_URL + "/connect/google/redirect"}`} element={<LoginRedirect providerName="google" />} />
+                  <Route path={`${process.env.PUBLIC_URL + "/connect/facebook/redirect"}`} element={<LoginRedirect providerName="facebook" />} />
+                  <Route path={`${process.env.PUBLIC_URL + "/connect/twitter/redirect"}`} element={<LoginRedirect providerName="twitter" />} />
                   <Route path={`${process.env.PUBLIC_URL + "/test"}`} element={<Test />} />
                 </Routes>
             </Suspense>
